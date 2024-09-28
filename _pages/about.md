@@ -15,7 +15,7 @@ Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, a
 
 Education
 ======
-* **Beijing University of Technology**![示例图片](images/bjut.png)
+* **Beijing University of Technology**![BJUT](images/image.png)
 
 * **As known as BJUT**
   *Sept. 2021-Jun. 2025*  
