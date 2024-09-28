@@ -8,13 +8,15 @@ redirect_from:
 ---
 ---
 Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and I am currently honored to be conducting summer research at Johns Hopkins University under the guidance of Bloomberg Distinguished Professor Alan Yuille. Previously, I had a wonderful experience at the AIMED lab at the University of Hong Kong and conducted research on graph neural network with the DCML group at Peking University. In my spare time, I enjoy gym, sports, extensive reading.
+
 ---
 
 {% include base_path %}
 
 Education
 ======
-* **Beijing University of Technology**
+* **Beijing University of Technology**![示例图片](images/bjut.png)
+
 * **As known as BJUT**
   *Sept. 2021-Jun. 2025*  
   Bachelor of Engineering in Artificial Intelligence  
