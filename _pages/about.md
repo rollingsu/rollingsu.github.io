@@ -9,7 +9,7 @@ redirect_from:
 ---
 Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and I am currently honored to be conducting summer research at Johns Hopkins University under the guidance of Bloomberg Distinguished Professor Alan Yuille. Previously, I had a wonderful experience at the AIMED lab at the University of Hong Kong and conducted research on graph neural network with the DCML group at Peking University. 
 My research interest includes computer vision, machine learning, and computational biology.
-In my spare time, I enjoy gym, sports, extensive reading.
+In my spare time, I enjoy gym, sports, reading.
 
 ---
 
@@ -17,46 +17,36 @@ In my spare time, I enjoy gym, sports, extensive reading.
 
 Education
 ======
-* **Beijing University of Technology**![BJUT](images/image.png)
-
+* **Beijing University of Technology** <img src="images/sample.png" alt="示例图片" width="300">
 * **As known as BJUT**
   *Sept. 2021-Jun. 2025*  
   Bachelor of Engineering in Artificial Intelligence  
+
+News
+=====
 
 Research Experience
 ======
 * **Johns Hopkins University (CCVL)**  
   *Mar. 2024-Present*  
   **Summer Research**  
-  Supervisor: Alan Yuille, Zongwei Zhou
-  - Computer Vision, Vision Language Models.
 
 * **The University of Hong Kong (AIMED)**  
   *Apr. 2024-Apr. 2025*  
   **Research Assistant**  
-  Supervisor: Tao Huang, Xihe Kuang
-  - Medical Imaging.
 
 * **Data-centric Machine Learning (DCML) Group, Peking University**  
-  *Jan. 2024-Present*  
-  Supervisor: Wentao Zhang  
-  - GNNs
-
-* **Beijing University of Technology**  
-  *Oct. 2023-Jan.2024*  
-  **Depression Recognition Based on Interpretable Contrastive Learning**  
-  - Improved depression recognition algorithm with MoCo v2, proposed new network structure for stronger generalization.
+  *Jan. 2024-Present*
+  **Remote Intern**
 
 * **Beijing Institute of Artificial Intelligence**  
-  *Oct. 2022-Jul. 2023*  
-  Supervisor: Luntian Mou  
-  - Ai music
+  *Oct. 2022-Jul. 2023*
+  **member**
 
 Internship
 ======
 * **CoNova Medical Technology Co., Ltd.**  
   *Sept. 2023-Present*  
-  Supervisor: Tao Huang, Xihe Kuang
 
 Skills
 ======
