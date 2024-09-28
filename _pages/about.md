@@ -27,26 +27,22 @@ News
 
 Research Experience
 ======
-* **Johns Hopkins University (CCVL)**  
+* **CCVL, Johns Hopkins University**  
   *Mar. 2024-Present*  
-  **Summer Research**  
-
-* **The University of Hong Kong (AIMED)**  
-  *Apr. 2024-Apr. 2025*  
-  **Research Assistant**  
-
+  **Summer Research**
+  
 * **Data-centric Machine Learning (DCML) Group, Peking University**  
   *Jan. 2024-Present*
-
 
 * **Beijing Institute of Artificial Intelligence**  
   *Oct. 2022-Jul. 2023*
 
 Internship
 ======
-* **CoNova Medical Technology Co., Ltd.**  
-  *Sept. 2023-Present*  
+* **The University of Hong Kong (AIMED)**  
+  *Apr. 2024-Apr. 2025*  
+  **Research Assistant**  
 
-Friends Photo Album
+Album
 ======
 incoming--
