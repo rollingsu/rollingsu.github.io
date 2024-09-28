@@ -37,28 +37,15 @@ Research Experience
 
 * **Data-centric Machine Learning (DCML) Group, Peking University**  
   *Jan. 2024-Present*
-  **Remote Intern**
+
 
 * **Beijing Institute of Artificial Intelligence**  
   *Oct. 2022-Jul. 2023*
-  **member**
 
 Internship
 ======
 * **CoNova Medical Technology Co., Ltd.**  
   *Sept. 2023-Present*  
-
-Skills
-======
-* Python, Pytorch, Monai  
-
-Publications
-======
-* Zhaolong Su, Zongwei Zhou*, Alan Yuille*, **Breaking the Scaling Law: How can we train a model more efficiently over three months?** *Corresponding authors, [Preparing for CVPR 2025]*  
-* Zhaolong Su, Zongwei Zhou*, Alan Yuille*, **Enabling AI to Segment Continuous Data Flow of Synonyms, Hierarchical, and Novel Classes in Multicenter CT Data with Manageable Cost**, *Corresponding authors, [RSNA 2024]*  
-* Zhaolong Su, Yuxuan Chen, Yike Li, **OpenAGCL: A Thorough Benchmark for Augmentations in Graph Contrastive Learning**, [Preprint in ArXiv]**  
-* [J49] Meng Jian, Yulong Bai, Ge Shi, Zhaolong Su, Lifang Wu, **Enhancing Recommendations with Knowledge-Guided Interest Contrast**, *IEEE Transactions on Big Data*
-
 
 Others
 ======
