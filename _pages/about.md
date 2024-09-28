@@ -1,18 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Zhaolong Su (Heisenberg)"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 ---
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and I am currently honored to be conducting summer research at Johns Hopkins University under the guidance of Bloomberg Distinguished Professor Alan Yuille. Previously, I had a wonderful experience at the AIMED lab at the University of Hong Kong and conducted research on graph neural network with the DCML group at Peking University. In my spare time, I enjoy gym, sports, extensive reading.
 ---
 
 {% include base_path %}
