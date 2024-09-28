@@ -18,7 +18,7 @@ In my spare time, I enjoy gym, sports, reading.
 Education
 ======
 * **Beijing University of Technology** <img src="images/image.png" alt="示例图片" width="60">
-* **As known as BJUT**
+* **'BJUT'**
   *Sept. 2021-Jun. 2025*  
   Bachelor of Engineering in Artificial Intelligence  
 
