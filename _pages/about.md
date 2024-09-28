@@ -47,8 +47,6 @@ Internship
 * **CoNova Medical Technology Co., Ltd.**  
   *Sept. 2023-Present*  
 
-Others
+Friends Photo Album
 ======
-* leader of some team
-* Organized concerts for friends.  
-* Led the development of a data-driven crowd simulation system, winning third prize at the "Challenge Cup."
+incoming--
