@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Zhaolong Su"
 name                     : &name "Zhaolong Su"
 description              : &description "personal description"
-url                      :  https://rollingsu.github.io/zhaolong.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://rollingsu.github.io/zhaolong.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rollingsu.github.io/zhaolong.github.io/"
 
@@ -20,7 +20,7 @@ repository               : "rollingsu.github.io/zhaolong.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/2d7821609d380323539137820ea27ef.jpg"
   name             : "Zhaolong Su"
   pronouns         : # example: "she/her"  
   bio              : "Forever Explorer"
@@ -31,11 +31,11 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : 
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   researchgate     : # URL
 
   # Repositories and software development
