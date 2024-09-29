@@ -15,7 +15,6 @@ Education
   *Sept. 2021-Jun. 2025*  
   *(Project 211 of National Key Universities)*  
   Bachelor of Engineering in Artificial Intelligence  
-  GPA: 3.61/4.0 | Average Mark: 87.99/100 (Top 11% in Major)  
   **Core courses**:  
   - Function of the Complex Variable (99), Deep Learning (98), College Physics (98), Engineering Graphics (97), Linear Algebra (94)  
   - Natural Language Processing (93), Comprehensive Experiment in Computer Vision (93), Internet of Things (92), Data Visualization (91)  
