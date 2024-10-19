@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 ---
-Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and I am currently honored to be conducting summer research at Johns Hopkins University under the guidance of Bloomberg Distinguished Professor Alan Yuille. Previously, I had a wonderful experience at the AIMED lab at the University of Hong Kong and DCML group at Peking University. 
-My research interest includes computer vision, machine learning, and computational biology.
-In my spare time, I enjoy gym, sports, reading.
+Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and I am currently honored to be conducting summer research at Johns Hopkins University under the guidance of Bloomberg Distinguished Professor Alan Yuille. Previously, I had a wonderful experience at the AIMED lab at the University of Hong Kong and DCML group at Peking University. //
+
+I am an ordinary person, but I hope to contribute my modest efforts to advancing AI and the development of the world. My research interests primarily focus on enabling AI to understand the world more like humans and helping machines comprehend more supervised information.//
+
+I have a particular passion for photography, reading, and fitness. Fellow enthusiasts of literature, history, and philosophy are also welcome to connect with me!
 
 ---
 
