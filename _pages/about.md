@@ -47,5 +47,6 @@ Internship
 
 Album
 ======
+I love postmodernism and wasteland punk-style photography, I will be a great photographer someday.
 ![Alt text](images/29b43996eda14b16a3282b326e3f121.jpg)
 
