@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 ---
-Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and I am currently honored to be conducting summer research at Johns Hopkins University under the guidance of Bloomberg Distinguished Professor Alan Yuille. Previously, I had a wonderful experience at University of Hong Kong and Peking University. 
+Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and I am currently honored to be conducting summer research at Johns Hopkins University under the guidance of Professor Alan Yuille. Previously, I had a wonderful experience at University of Hong Kong and Peking University. 
 
 I am an ordinary person, but I hope to contribute my modest efforts to advancing AI and the development of the world. My research interests primarily focus on **Computer Vision, Multimodal Learning, Self-Supervised Learning**, enabling AI to understand the world more humans-like and helping machines comprehend more supervised information.
 
@@ -50,6 +50,4 @@ Album
 I love postmodernism and wasteland punk-style photography, And I will try to be a great photographer someday.
 
 <img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="500" height="400">
-<img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="300" height="200">
-<img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="300" height="200">
-<img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="300" height="200">
+<img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="500" height="400">
