@@ -47,5 +47,8 @@ Internship
 
 Album
 ======
-I love postmodernism and wasteland punk-style photography, I will be a great photographer someday.
+I love postmodernism and wasteland punk-style photography, And I will try to be a great photographer someday.
+<img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="300" height="200">
+<img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="300" height="200">
+<img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="300" height="200">
 <img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="300" height="200">
