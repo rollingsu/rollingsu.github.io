@@ -47,5 +47,5 @@ Internship
 
 Album
 ======
-![Alt text](image_url)
+![Alt text](images/29b43996eda14b16a3282b326e3f121.jpg)
 
