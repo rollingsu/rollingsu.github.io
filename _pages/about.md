@@ -9,7 +9,7 @@ redirect_from:
 ---
 Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and I am currently honored to be conducting summer research at Johns Hopkins University under the guidance of Professor Alan Yuille. Previously, I had a wonderful experience at University of Hong Kong and Peking University. 
 
-As an ordinary person, but I hope to contribute my modest efforts to advancing AI and the development of the world. My research interests primarily focus on **Computer Vision, Multimodal Learning, Self-Supervised Learning**, enabling AI to understand the world more humans-like and helping machines comprehend more supervised information.
+As an ordinary person, I hope to contribute my modest efforts to advancing AI and the development of the world. My research interests primarily focus on **Computer Vision, Multimodal Learning, Self-Supervised Learning**, enabling AI to understand the world more humans-like and helping machines comprehend more supervised information.
 
 I have a particular passion for photography, reading, and fitness. Fellow enthusiasts of literature, history, and philosophy are also welcome to connect with me!
 
