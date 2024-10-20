@@ -14,6 +14,7 @@ As an ordinary person, but I hope to contribute my modest efforts to advancing A
 I have a particular passion for photography, reading, and fitness. Fellow enthusiasts of literature, history, and philosophy are also welcome to connect with me!
 
 PS：In the field of bioinformatics, AI might create more world-class impacts. Recently, I organized a seminar with Professor Xin Zhou from Vanderbilt(Vandy) University and Professor Shan Wang from the Vandy wet lab. While I may not directly pursue this field, I find it incredibly interesting.
+
 ---
 
 {% include base_path %}
