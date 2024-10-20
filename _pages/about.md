@@ -28,7 +28,7 @@ Education
 
 News
 =====
-✌️I successfully organized a postgraduate recommendation group among my friends. Apart from myself, all the other members have been admitted to graduate programs at institutions (Institute of Automation at the University of Science and Technology of China, Peking University, Nankai University, and Beijing University of Posts and Telecommunications). Congratulations！！
+✌️I successfully organized a postgraduate recommendation group among my friends. Apart from myself, all the other members have been admitted to graduate programs at institutions (eg. Institute of Automation at the University of Science and Technology of China, Peking University, Nankai University, and Beijing University of Posts and Telecommunications). Congratulations！！
 
 Research Experience
 ======
