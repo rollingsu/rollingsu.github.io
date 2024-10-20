@@ -22,13 +22,13 @@ PS：In the field of bioinformatics, AI might create more world-class impacts. R
 Education
 ======
 * **Beijing University of Technology** <img src="images/image.png" alt="示例图片" width="30">
-* **'BJUT'**
+* **'BJUT'** **'211'**
   *Sept. 2021-Jun. 2025*  
   Bachelor of Engineering in Artificial Intelligence  
 
 News
 =====
-I successfully organized a postgraduate recommendation group among my friends. Apart from myself, all the other members have been admitted to graduate programs at institutions (Institute of Automation at the University of Science and Technology of China, Peking University, Nankai University, and Beijing University of Posts and Telecommunications).
+✌️I successfully organized a postgraduate recommendation group among my friends. Apart from myself, all the other members have been admitted to graduate programs at institutions (Institute of Automation at the University of Science and Technology of China, Peking University, Nankai University, and Beijing University of Posts and Telecommunications). Congratulations！！
 
 Research Experience
 ======
