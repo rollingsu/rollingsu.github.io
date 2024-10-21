@@ -39,9 +39,6 @@ Research Experience
 * **Data-centric Machine Learning (DCML) Group, Peking University**  
   *Jan. 2024-Present*
 
-* **Beijing Institute of Artificial Intelligence**  
-  *Oct. 2022-Jul. 2023*
-
 Internship
 ======
 * **The University of Hong Kong (AIMED)**  
