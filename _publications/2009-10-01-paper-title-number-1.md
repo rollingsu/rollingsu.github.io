@@ -11,7 +11,7 @@ author_profile: true
 - **Zhaolong Su**, Zongwei Zhou*, Alan Yuille*, **Enabling AI to Segment Continuous Data Flow of Synonyms, Hierarchical, and Novel Classes in Multicenter CT Data with Manageable Cost**  
   *Corresponding authors*, [RSNA 2024 2nd round rejected]
 
-- **Zhaolong Su**, Yunhan Tian, Jiakui Hu, Jieneng Chen**Can Language Models Serve as a Physical Interface in Video?**  
+- **Zhaolong Su**, Yunhan Tian, Jiakui Hu, Jieneng Chen, **Can Language Models Serve as a Physical Interface in Video?**  
   [Preparing for MM]
 
 - **Jiakui Hu**, **Zhaolong Su**\*\*, Guoqi Li*, **Meta-Memory in Token Mixers: Defining and Exploring Memory-Performance Curves Across Vision Tasks**  
