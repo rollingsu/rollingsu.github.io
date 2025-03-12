@@ -3,6 +3,8 @@ title: "Publications"
 collection: publications
 category: manuscripts
 permalink: /publication/
+layout: archive
+author_profile: true
 ---
 
 - **Zhaolong Su**, Zongwei Zhou*, Alan Yuille*, **Breaking the Scaling Law: How Can We Train a Segment Model More Efficiently Over Three Months?**  
