@@ -49,7 +49,6 @@ Research Experience
 **Remote Intern**  
 **Supervisor:** Wentao Zhang  
 - **OpenAGCL:** Established a benchmark for data augmentation in Graph Contrastive Learning, introducing new insights into augmentation interpretability.  
-- **Multi-QAEncoder:** Enhancing representation learning in question-answering systems by optimizing knowledge querying and indexing for medical applications.
 
 ---
 
