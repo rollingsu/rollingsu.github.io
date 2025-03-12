@@ -24,7 +24,7 @@ Education
   *Sept. 2021-Jun. 2025*  
   Bachelor of Engineering in Artificial Intelligence  '
 
-* **William & Mary** <img src="images/primary.jpg" alt="示例图片" width="30">
+* **William & Mary** <img src="images/primary.jpg" alt="示例图片" width="50">
 * **'Incoming PhD'**
   *2025 Fall*  
 
