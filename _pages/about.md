@@ -44,7 +44,7 @@ Research Experience
   *supervised by Guoqi Li, Computer Vision*
   
 * **Intern @Maizie Zhou Lab@Vanderbilt University**  
-  *Nov. 2024-Jan. 2025*
+  *Nov. 2024-Jan. 2025*  
   *supervised by Xin Zhou, CompBio*
   
 * **Intern @DCML Group,Peking University**  
@@ -52,7 +52,7 @@ Research Experience
   *supervised by Wentao Zhang, GNN/LLMs*  
   
 * **RA @LKS Faulty of Medicine@The University of Hong Kong**  
-  *Apr. 2024-Apr. 2025*
+  *Apr. 2024-Apr. 2025*  
   *Computer Vision*  
 
 Album
