@@ -33,8 +33,6 @@ Education
 
 News
 =====
-✌️I am incoming PhD student @ William&Mary, I am honored to work with Prof.Jindong Wang.
-
 ✌️I successfully organized a postgraduate recommendation group among my friends. All members have been admitted to graduate programs at institutions (eg. Institute of Automation at the University of Science and Technology of China, Peking University, Nankai University, and Beijing University of Posts and Telecommunications). Congratulations！！
 
 Research Experience
