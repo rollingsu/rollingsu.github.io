@@ -9,7 +9,7 @@ redirect_from:
 ---
 Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, My research interests primarily focus on **Machine Learning, Computer Vision, Multimodal Learning**, and a Incoming PhD at William & Mary.
 
-I am a researcher at Johns Hopkins University, working with Bloomberg Distinguished **Prof. Alan Yuille**, whose doctoral studies were advised by **Prof. Stephen Hawking**. Prior to that, I  worked at Peking University, supervised by**Prof. Wentao Zhang**. I also had a wonderful experience at University of Hong Kong worked closely with **Prof. Jason Pui Yin Cheung**, we have promoted the development and application of CT-free scoliosis treatment, and now our products have been widely deployed in large cities in china. I am also interning at Chinese Academy of Sciences(CAS) supervised by **Prof.Guoqi Li**.
+I am a researcher at Johns Hopkins University, working with Bloomberg Distinguished **Prof. Alan Yuille**, whose doctoral studies were advised by **Prof. Stephen Hawking**. Prior to that, I  worked at Peking University, supervised by **Prof. Wentao Zhang**. I also had a wonderful experience at University of Hong Kong worked closely with **Prof. Jason Pui Yin Cheung**, we have promoted the development and application of CT-free scoliosis treatment, and now our products have been widely deployed in large cities in china. I am also interning at Chinese Academy of Sciences(CAS) supervised by **Prof.Guoqi Li**.
 
 Recently, I organized a seminar with Professor Xin Zhou from Vanderbilt(Vandy) University and Professor Shan Wang from the Vandy wet lab. While I may not directly pursue this field, I find it incredibly interesting.
 
