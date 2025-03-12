@@ -1,8 +1,6 @@
 ---
 title: "Publications"
-collection: publications
-category: conferences
-permalink: /publication/
+permalink: /publications/
 layout: archive
 author_profile: true
 ---
