@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-[download](../files/CV-Zhaolong-Su-2025.pdf)
+[download](../zhaolong.github.io/files/CV-Zhaolong-Su-2025.pdf)
