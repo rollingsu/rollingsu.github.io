@@ -26,34 +26,38 @@ Education
 
 Research Experience
 ======
-* **Johns Hopkins University (CCVL)**  
-  *Mar. 2024-Present*  
-  **Summer Research**  
-  Supervisor: Alan Yuille  
-  - Breaking the Scaling Law: How to break the traditional scaling law in a three-month training, in preparation for CVPR 2025.  
-  - Solved challenges in optimizing medical image segmentation by scaling down data from multicenter clinical CTs while managing cost and improving AI performance.
 
-* **The University of Hong Kong (AIMED)**  
-  *Apr. 2024-Apr. 2025*  
-  **Research Assistant**  
-  Supervisor: Teng Zhang  
-  - Combining 3D generation with medical imaging, focused on risk classification for scoliosis, and assisting in early screening.
+### **Johns Hopkins University (CCVL)**  
+*Mar. 2024 - Present*  
+**Summer Onsite Intern**  
+**Supervisors:** Alan Yuille, Zongwei Zhou  
+- **Breaking the Scaling Law:** Optimizing segmentation models by scaling down, improving data utilization in multicenter CT data with manageable cost, and leveraging language for segmenting novel classes. *(Preparing for CVPR 2025)*  
+- **Video Caption Makes Better Physical Features:** Integrating structured physical knowledge into video generation models using large language models to improve physical realism in diffusion models. *(Preparing for MM 2025)*  
 
-* **Data-centric Machine Learning (DCML) Group, Peking University**  
-  *Jan. 2024-Present*  
-  Supervisor: Wentao Zhang  
-  - Applied machine learning to graph data for relational reasoning, interpretability.  
-  - Developed a benchmark for graph data augmentation in graph contrastive learning.
+---
 
-* **Beijing University of Technology**  
-  *Oct. 2023-Jan.2024*  
-  **Depression Recognition Based on Interpretable Contrastive Learning**  
-  - Improved depression recognition algorithm with MoCo v2, proposed new network structure for stronger generalization.
+### **Vanderbilt University**  
+*Sep. 2024 - Present*  
+**Remote Intern**  
+**Supervisors:** Xin Maizie Zhou, Shan Meltzer  
+- **SpatialTranscriptomics_LocalAlignST:** Benchmarking state-of-the-art spatial alignment algorithms (e.g., CAST, GPSA, STalign, scHolography) and developing a novel method for aligning spatial data in 3D.
 
-* **Beijing Institute of Artificial Intelligence**  
-  *Oct. 2022-Jul. 2023*  
-  Supervisor: Luntian Mou  
-  - Designed prototype for AI music recognition project in cooperation with NetEase Cloud Music.
+---
+
+### **Peking University – Data-centric Machine Learning Group (DCML)**  
+*Jan. 2024 - May 2024*  
+**Remote Intern**  
+**Supervisor:** Wentao Zhang  
+- **OpenAGCL:** Established a benchmark for data augmentation in Graph Contrastive Learning, introducing new insights into augmentation interpretability.  
+- **Multi-QAEncoder:** Enhancing representation learning in question-answering systems by optimizing knowledge querying and indexing for medical applications.
+
+---
+
+### **The University of Hong Kong (AIMED)**  
+*Sep. 2023 - Oct. 2024*  
+**Research Assistant**  
+**Supervisors:** Tao Huang, Xihe Kuang  
+- **Wukong: Light-based Disease Analysis and Follow-up:** Developed computer vision algorithms for medical imaging, constructed scoliosis datasets, and contributed to front-end testing of scoliosis software.
 
 Internship
 ======
