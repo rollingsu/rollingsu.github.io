@@ -19,7 +19,7 @@ Recently, I organized a seminar with Professor Xin Zhou from Vanderbilt(Vandy) U
 
 <img src="images/HKUlogo.jpg" alt="示例图片" width="100">
 <img src="images/PKUlogo.png" alt="示例图片" width="100">
-<img src="images/jhulogo.png" alt="示例图片" width="100">
+<img src="images/jhulogo.png" alt="示例图片" width="87">
 <img src="images/bjutlogo.png" alt="示例图片" width="100">
 
 Education
