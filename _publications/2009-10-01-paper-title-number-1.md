@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/
 layout: archive
 author_profile: true
