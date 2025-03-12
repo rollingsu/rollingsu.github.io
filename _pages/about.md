@@ -17,10 +17,10 @@ Recently, I organized a seminar with Professor Xin Zhou from Vanderbilt(Vandy) U
 
 {% include base_path %}
 
-<img src="images/primary.jpg" alt="示例图片" width="50">
-<img src="images/primary.jpg" alt="示例图片" width="50">
-<img src="images/primary.jpg" alt="示例图片" width="50">
-<img src="images/primary.jpg" alt="示例图片" width="50">
+<img src="images/HKUlogo.jpg" alt="示例图片" width="70">
+<img src="images/PKUlogo.jpg" alt="示例图片" width="70">
+<img src="images/JHUlogo.jpg" alt="示例图片" width="70">
+<img src="images/bjutlogo.png" alt="示例图片" width="70">
 
 Education
 ======
