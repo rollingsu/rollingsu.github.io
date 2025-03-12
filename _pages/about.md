@@ -17,6 +17,11 @@ Recently, I organized a seminar with Professor Xin Zhou from Vanderbilt(Vandy) U
 
 {% include base_path %}
 
+<img src="images/primary.jpg" alt="示例图片" width="50">
+<img src="images/primary.jpg" alt="示例图片" width="50">
+<img src="images/primary.jpg" alt="示例图片" width="50">
+<img src="images/primary.jpg" alt="示例图片" width="50">
+
 Education
 ======
 * **Beijing University of Technology**   <img src="images/image.png" alt="示例图片" width="30">
