@@ -20,7 +20,7 @@ Education
   - Natural Language Processing (93), Comprehensive Experiment in Computer Vision (93), Internet of Things (92), Data Visualization (91)  
   - Optimization Theory and Methods (91), Translates to Process Control Systems (91), Machine Learning (90), Data Mining (90), Pattern Recognition II (84)  
   **Scholarships**:  
-  - National Scholarship, Academic Excellence Scholarship
+  - National Scholarship, Academic Excellence Scholarship  
   **Tech Stack**:  
   - Python, Pytorch, Monai, etc.
 
