@@ -6,49 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
----
-permalink: /
-title: "Zhaolong Su"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
-<span class="gradient-title">Hi<span style="font-size:1.5em">🙌</span>, I'm Zhaolong Su</span>
-
-> **动态学术时间线**  
-> 北京工业大学 → 威廉玛丽学院 | JHU → 中科院 → 港大 → 北大 → 范德堡
-
-## <span class="gradient-header">Education</span>
-* **Beijing University of Technology** ![logo](images/image.png)  
-  <span class="gradient-text">B.Eng in Artificial Intelligence</span>  
-  *2021.09 - 2025.06*
-
-* **William & Mary** ![logo](images/primary.jpg)  
-  <span class="gradient-text">Incoming PhD</span>  
-  *2025 Fall*
-
-## <span class="gradient-header">Research Experience</span>
-* ![lab](images/jhulogo.png) **Johns Hopkins University**  
-  <span class="gradient-text">Computer Vision & Generative Models</span>  
-  *2024.03 - Present*  
-  Advisors: Alan Yuille
-
-* ![lab](images/PKUlogo.png) **Peking University**  
-  <span class="gradient-text">GNN/LLMs Research</span>  
-  *2024.01 - Present*  
-  Advisors: Wentao Zhang
-
-## <span class="gradient-header">News</span>
-✌️ <span class="gradient-highlight">保研小组全员斩获</span>：  
-![CAS](images/caslogo.png) 中科院自动化所  
-![PKU](images/pkulogo.png) 北京大学  
-![Nankai](images/nankailogo.png) 南开大学
-
-## <span class="gradient-header">Album</span>
-**<span class="gradient-text">废墟美学实验</span>**  
-![作品](images/29b43996eda14b16a3282b326e3f121.jpg)
 
 .highlight {
   border-left: 3px solid #4ecdc4;
@@ -73,11 +30,11 @@ Education
 ======
 * **Beijing University of Technology**   <img src="images/image.png" alt="示例图片" width="30">
 * **'BJUT'**
-  *Sept. 2021-Jun. 2025*  
-  Bachelor of Engineering in Artificial Intelligence  '
+  *Sept. 2021-Jun. 2025* 
+  <span class= "gradient-text">B.Eng in Artificial Intelligence</span>
 
 * **William & Mary**   <img src="images/primary.jpg" alt="示例图片" width="60">
-* **Incoming PhD**
+<span class= "gradient-text">Incoming PhD</span>
   *2025 Fall*  
 
 
