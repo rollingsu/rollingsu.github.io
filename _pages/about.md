@@ -6,12 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<!-- 背景容器 -->
-<div id="particles-js"></div>
-
-<div class="content-overlay">
-  
-![Wave] Hi<span class="wave">🙌</span>, I'm Zhaolong Su
 ---
 Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and a Incoming PhD at William & Mary. My research interests primarily focus on <span class= "gradient-text">**Machine Learning, Computer Vision, Multimodal Learning**</span>
 
@@ -30,8 +24,7 @@ Recently, I organized a seminar with Professor Xin Zhou from Vanderbilt(Vandy) U
 Education
 ======
 * **Beijing University of Technology**   <img src="images/image.png" alt="示例图片" width="30">
-* **'BJUT'**  
-  *Sept. 2021-Jun. 2025* 
+  *Sept. 2021-Jun. 2025*   
   <span class= "gradient-text">**B.Eng in Artificial Intelligence**</span>
 
 * **William & Mary**   <img src="images/primary.jpg" alt="示例图片" width="60">
@@ -72,8 +65,4 @@ I love postmodernism and wasteland punk-style photography, And I definitely will
 
 <img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="500" height="400">
 
-</div>
 
-<!-- 外部资源链接 -->
-<link rel="stylesheet" href="/assets/css/particles.css">
-<script src="/assets/js/particles.min.js"></script>
