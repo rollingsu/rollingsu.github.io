@@ -7,14 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-.highlight {
-  border-left: 3px solid #4ecdc4;
-  padding-left: 1rem;
-}
 ---
 Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and a Incoming PhD at William & Mary. My research interests primarily focus on Machine Learning, Computer Vision, Multimodal Learning.
 
-I am a researcher at Johns Hopkins University, working with Bloomberg Distinguished **Prof. Alan Yuille**. Prior to that, I  worked at Peking University, supervised by **Prof. Wentao Zhang**. I also had a wonderful experience at HKU, we have promoted the development and application of CT-free scoliosis treatment. I am also interning at Chinese Academy of Sciences(CAS) supervised by **Prof.Guoqi Li**.
+I am a researcher at <span class= "gradient-text">Johns Hopkins University</span>, working with Bloomberg Distinguished **Prof. Alan Yuille**. Prior to that, I  worked at <span class= "gradient-text">Peking University</span>, supervised by **Prof. Wentao Zhang**. I also had a wonderful experience at <span class= "gradient-text">HKU</span>, we have promoted the development and application of CT-free scoliosis treatment. I am also interning at Chinese Academy of Sciences(CAS) supervised by **Prof.Guoqi Li**.
 
 Recently, I organized a seminar with Professor Xin Zhou from Vanderbilt(Vandy) University and Professor Shan Wang from the Vandy wet lab. While I may not directly pursue this field, I find it incredibly interesting.
 
@@ -30,12 +26,13 @@ Education
 ======
 * **Beijing University of Technology**   <img src="images/image.png" alt="示例图片" width="30">
 * **'BJUT'**
-  *Sept. 2021-Jun. 2025* 
-  <span class= "gradient-text">B.Eng in Artificial Intelligence</span>
+  *Sept. 2021-Jun. 2025* /
+  <span class= "gradient-text">**B.Eng in Artificial Intelligence**</span>/
 
-* **William & Mary**   <img src="images/primary.jpg" alt="示例图片" width="60">
-<span class= "gradient-text">Incoming PhD</span>
-  *2025 Fall*  
+* **William & Mary**   <img src="images/primary.jpg" alt="示例图片" width="60">/
+* **2025 Fall**  /
+  <span class= "gradient-text">**Incoming PhD**</span>/
+
 
 
 News
