@@ -8,11 +8,11 @@ redirect_from:
 ---
 
 ---
-Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and a Incoming PhD at William & Mary. My research interests primarily focus on Machine Learning, Computer Vision, Multimodal Learning.
+Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and a Incoming PhD at William & Mary. My research interests primarily focus on <span class= "gradient-text">**Machine Learning, Computer Vision, Multimodal Learning**</span>
 
-I am a researcher at <span class= "gradient-text">Johns Hopkins University</span>, working with Bloomberg Distinguished **Prof. Alan Yuille**. Prior to that, I  worked at <span class= "gradient-text">Peking University</span>, supervised by **Prof. Wentao Zhang**. I also had a wonderful experience at <span class= "gradient-text">HKU</span>, we have promoted the development and application of CT-free scoliosis treatment. I am also interning at Chinese Academy of Sciences(CAS) supervised by **Prof.Guoqi Li**.
+I am a researcher at Johns Hopkins University, working with Bloomberg Distinguished Prof. Alan Yuille. Prior to that, I worked at Peking University, supervised by Prof. Wentao Zhang. I also had a wonderful experience at HKU, we have promoted the development and application of CT-free scoliosis treatment. I am also interning at Chinese Academy of Sciences(CAS) supervised by Prof.Guoqi Li
 
-Recently, I organized a seminar with Professor Xin Zhou from Vanderbilt(Vandy) University and Professor Shan Wang from the Vandy wet lab. While I may not directly pursue this field, I find it incredibly interesting.
+Recently, I organized a seminar with Professor Xin Zhou from Vanderbilt(Vandy) University and Professor Shan Wang from the Vandy wet lab. While I may not directly pursue this field, I find it incredibly interesting
 
 ---
 
@@ -25,13 +25,13 @@ Recently, I organized a seminar with Professor Xin Zhou from Vanderbilt(Vandy) U
 Education
 ======
 * **Beijing University of Technology**   <img src="images/image.png" alt="示例图片" width="30">
-* **'BJUT'**
-  *Sept. 2021-Jun. 2025* /
-  <span class= "gradient-text">**B.Eng in Artificial Intelligence**</span>/
+* **'BJUT'**  
+  *Sept. 2021-Jun. 2025* 
+  <span class= "gradient-text">**B.Eng in Artificial Intelligence**</span>
 
-* **William & Mary**   <img src="images/primary.jpg" alt="示例图片" width="60">/
-* **2025 Fall**  /
-  <span class= "gradient-text">**Incoming PhD**</span>/
+* **William & Mary**   <img src="images/primary.jpg" alt="示例图片" width="60">
+* **2025 Fall**  
+  <span class= "gradient-text">**Incoming PhD**</span>
 
 
 
