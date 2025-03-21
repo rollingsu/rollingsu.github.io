@@ -24,11 +24,11 @@ Recently, I organized a seminar with Professor Xin Zhou from Vanderbilt(Vandy) U
 Education
 ======
 * **Beijing University of Technology**   <img src="images/image.png" alt="示例图片" width="30">
-* **Sept. 2021-Jun. 2025**   
+* *Sept. 2021-Jun. 2025*   
   <span class= "gradient-text">**B.Eng in Artificial Intelligence**</span>
 
 * **William & Mary**   <img src="images/primary.jpg" alt="示例图片" width="60">
-* **2025 Fall**  
+* *Fall. 2025*  
   <span class= "gradient-text">**Incoming PhD**</span>
 
 
