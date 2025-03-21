@@ -7,6 +7,54 @@ redirect_from:
   - /about.html
 ---
 ---
+permalink: /
+title: "Zhaolong Su"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+<span class="gradient-title">Hi<span style="font-size:1.5em">🙌</span>, I'm Zhaolong Su</span>
+
+> **动态学术时间线**  
+> 北京工业大学 → 威廉玛丽学院 | JHU → 中科院 → 港大 → 北大 → 范德堡
+
+## <span class="gradient-header">Education</span>
+* **Beijing University of Technology** ![logo](images/image.png)  
+  <span class="gradient-text">B.Eng in Artificial Intelligence</span>  
+  *2021.09 - 2025.06*
+
+* **William & Mary** ![logo](images/primary.jpg)  
+  <span class="gradient-text">Incoming PhD</span>  
+  *2025 Fall*
+
+## <span class="gradient-header">Research Experience</span>
+* ![lab](images/jhulogo.png) **Johns Hopkins University**  
+  <span class="gradient-text">Computer Vision & Generative Models</span>  
+  *2024.03 - Present*  
+  Advisors: Alan Yuille
+
+* ![lab](images/PKUlogo.png) **Peking University**  
+  <span class="gradient-text">GNN/LLMs Research</span>  
+  *2024.01 - Present*  
+  Advisors: Wentao Zhang
+
+## <span class="gradient-header">News</span>
+✌️ <span class="gradient-highlight">保研小组全员斩获</span>：  
+![CAS](images/caslogo.png) 中科院自动化所  
+![PKU](images/pkulogo.png) 北京大学  
+![Nankai](images/nankailogo.png) 南开大学
+
+## <span class="gradient-header">Album</span>
+**<span class="gradient-text">废墟美学实验</span>**  
+![作品](images/29b43996eda14b16a3282b326e3f121.jpg)
+
+.highlight {
+  border-left: 3px solid #4ecdc4;
+  padding-left: 1rem;
+}
+---
 Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and a Incoming PhD at William & Mary. My research interests primarily focus on Machine Learning, Computer Vision, Multimodal Learning.
 
 I am a researcher at Johns Hopkins University, working with Bloomberg Distinguished **Prof. Alan Yuille**. Prior to that, I  worked at Peking University, supervised by **Prof. Wentao Zhang**. I also had a wonderful experience at HKU, we have promoted the development and application of CT-free scoliosis treatment. I am also interning at Chinese Academy of Sciences(CAS) supervised by **Prof.Guoqi Li**.
