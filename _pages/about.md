@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 ---
-Hi🙌, I'm Zhaolong Su, a senior student at Beijing University of Technology, and a Incoming PhD at William & Mary. My research interests primarily focus on <span class= "gradient-text">**Machine Learning, Computer Vision, Multimodal Learning**</span>
+Hi😄, I'm Zhaolong Su, a senior student at Beijing University of Technology, and a Incoming PhD at William & Mary. My research interests primarily focus on <span class= "gradient-text">**Machine Learning, Computer Vision, Multimodal Learning**</span>
 
 I am a researcher at Johns Hopkins University, working with Bloomberg Distinguished Prof. Alan Yuille. Prior to that, I worked at Peking University, supervised by Prof. Wentao Zhang. I also had a wonderful experience at HKU, we have promoted the development and application of CT-free scoliosis treatment. I am also interning at Chinese Academy of Sciences(CAS) supervised by Prof.Guoqi Li
 
