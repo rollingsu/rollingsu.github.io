@@ -7,11 +7,9 @@ redirect_from:
   - /about.html
 ---
 ---
-Hi😄, I'm Zhaolong Su, a senior student at Beijing University of Technology, and a Incoming PhD at William & Mary. My research interests primarily focus on <span class= "gradient-text">**Machine Learning, Computer Vision, Multimodal Learning**</span>
+Hi😄, I'm Zhaolong Su, I graduate from Beijing University of Technology as bachelor, and first year PhD at William & Mary, I am very fortunate to be supervised by [Prof. Jindong Wang](https://jd92.wang/). I do vision related research, primarily focus on <span class= "gradient-text">** Multimodal Perception, and World Model.**</span>.
 
-I am a researcher at Johns Hopkins University, working with Bloomberg Distinguished Prof. Alan Yuille. Prior to that, I worked at Peking University, supervised by Prof. Wentao Zhang. I also had a wonderful experience at HKU, we have promoted the development and application of CT-free scoliosis treatment. I am also interning at Chinese Academy of Sciences(CAS) supervised by Prof.Guoqi Li
-
-Recently, I organized a seminar with Professor Xin Zhou from Vanderbilt(Vandy) University and Professor Shan Wang from the Vandy wet lab. While I may not directly pursue this field, I find it incredibly interesting
+I also research at Johns Hopkins University, working with Bloomberg Distinguished Prof. Alan Yuille. Prior to that, I worked at Peking University, supervised by Prof. Wentao Zhang. I also had a wonderful experience at HKU, we have promoted the development and application of CT-free scoliosis treatment. I also interned at Chinese Academy of Sciences(CAS) supervised by Prof.Guoqi Li
 
 ---
 
@@ -29,7 +27,7 @@ Education
 
 * **William & Mary**   <img src="images/primary.jpg" alt="示例图片" width="60">
 * *Fall. 2025*  
-  <span class= "gradient-text">**Incoming PhD**</span>
+  <span class= "gradient-text">**PhD in Data Science**</span>
 
 
 
@@ -61,7 +59,7 @@ Research Experience
 
 Album
 ======
-I love postmodernism and wasteland punk-style photography, And I definitely will try to be a great photographer someday.
+I love postmodernism and wasteland punk-style photography, And I wish to be a great photographer someday.
 
 <img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="500" height="400">
 
