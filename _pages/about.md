@@ -125,10 +125,6 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
   - *Nov. 2024-Present*
   - *supervised by Guoqi Li, Computer Vision*
 
-- **Intern @Maizie Zhou Lab@Vanderbilt University**
-  - *Nov. 2024-Jan. 2025*
-  - *supervised by Xin Zhou, CompBio*
-
 - **Intern @DCML Group, Peking University**
   - *Jan. 2024-Present*
   - *supervised by Wentao Zhang, GNN/LLMs*
