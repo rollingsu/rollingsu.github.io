@@ -106,7 +106,7 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
 
 <div class="news-highlight">
 <p><span class="pulse-icon">✨</span> Our new arxiv <strong>UniGame: Turning a Unified Multimodal Model Into Its Own Adversary</strong> has been released!
-<a href="https://arxiv.org/abs/2511.19413" target="_blank" class="news-btn">Read Paper</a>
+<a href="https://arxiv.org/abs/2511.19413" target="_blank" class="news-btn">Paper</a>
 </p>
 <img src="images/unigame.png" alt="Framework Diagram" width="500">
 </div>
