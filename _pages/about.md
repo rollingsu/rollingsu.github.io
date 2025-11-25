@@ -33,6 +33,9 @@ Education
 
 News
 =====
+✨Our new arxiv **UniGame: Turning a Unified Multimodal Model Into Its Own Adversary** has been released! ([https://arxiv.org/abs/2511.19413])
+<img src="images/unigame.png" alt="Framework Diagram" width="500">
+
 ✌️I successfully organized a postgraduate recommendation group. All members have been admitted to graduate programs(eg. Institute of Automation at CAS, Peking University, Nankai University, and Beijing University of Posts and Telecommunications). Congrats！
 
 Research Experience
