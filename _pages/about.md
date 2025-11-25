@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 ---
-Hi😄, I'm Zhaolong Su, I graduated from Beijing University of Technology with a bachelor's degree, and am a first year PhD at William & Mary, I am very fortunate to be supervised by [Prof. Jindong Wang](https://jd92.wang/). I do vision related research, primarily focusing on <span class= "gradient-text">**Multimodal Perception, and World Model.**</span>.
+Hi😄, I'm Zhaolong Su, I graduated from Beijing University of Technology with a bachelor's degree, and am a first year PhD at William & Mary, I am very fortunate to be supervised by [Prof. Jindong Wang](https://jd92.wang/). I do vision related research, primarily focusing on <span class= "gradient-text">**Computer Vision, Multimodal Learning, and World Model.**</span>
 
 I also conduct research at Johns Hopkins University, working with Bloomberg Distinguished Prof. Alan Yuille. Prior to that, I worked at Peking University, supervised by Prof. Wentao Zhang. I also had a wonderful experience at HKU, where we promoted the development and application of CT-free scoliosis treatment. I also interned at Chinese Academy of Sciences (CAS) supervised by Prof. Guoqi Li
 
