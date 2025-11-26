@@ -152,12 +152,19 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
 ## Album
 
 I love postmodernism and wasteland punk-style photography, and I wish to be a great photographer someday.
+
 <img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="500" height="400">
+
 Places to Remember
 Beijing University of Technology
+
 <img src="images/bjut.jpg" alt="Alt text" width="500" height="400">
+
 William Mary
+
 <img src="images/wm.jpg" alt="Alt text" width="500" height="400">
+
 Johns Hopkins
+
 <img src="images/jhu.jpg" alt="Alt text" width="500" height="400">
 
