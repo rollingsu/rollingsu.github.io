@@ -23,7 +23,7 @@ redirect_from:
 /* 1. 码农字体栈 (Monospace Font Stack) & 全局字号设置 */
 body {
   /* 这里把 Roboto Mono 放在第一位，如果没有加载成功则回退到 Consolas 等 */
-  font-family: 'Roboto Mono', 'Consolas', 'Courier New', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 16px;   /* Roboto Mono 字体相对紧凑，16px 比较舒适 */
   line-height: 1.6;  /* 增加行高，防止拥挤 */
   letter-spacing: -0.2px; /* 微调字间距，增加现代感 */
