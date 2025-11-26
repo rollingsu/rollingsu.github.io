@@ -48,7 +48,7 @@ body {
   display: inline-block;
   background-color: #007bff;
   color: white !important;
-  padding: 8px 15px;
+  padding: 4px 12px;
   text-align: center;
   text-decoration: none;
   border-radius: 5px;
