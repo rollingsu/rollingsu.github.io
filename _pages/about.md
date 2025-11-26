@@ -108,7 +108,7 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
 <p><span class="pulse-icon">✨</span> Our new arxiv <strong>UniGame: Turning a Unified Multimodal Model Into Its Own Adversary</strong> has been released!
 <a href="https://arxiv.org/abs/2511.19413" target="_blank" class="news-btn">Paper</a>
 </p>
-<img src="images/unigame.png" alt="Framework Diagram" width="500">
+<img src="images/unigame.jpg" alt="Framework Diagram" width="500">
 </div>
 
 ✌️I successfully organized a postgraduate recommendation group. All members have been admitted to graduate programs(eg. Institute of Automation at CAS, Peking University, Nankai University, and Beijing University of Posts and Telecommunications). Congrats！
