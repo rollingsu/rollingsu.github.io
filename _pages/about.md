@@ -156,6 +156,7 @@ I love postmodernism and wasteland punk-style photography, and I wish to be a gr
 <img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="500" height="400">
 
 Places to Remember
+
 Beijing University of Technology
 
 <img src="images/bjut.jpg" alt="Alt text" width="500" height="400">
