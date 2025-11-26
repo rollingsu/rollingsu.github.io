@@ -16,9 +16,12 @@ redirect_from:
 
 <style>
 /* 嵌入关键CSS样式 */
-/* 1. 码农字体栈 (Monospace Font Stack) */
+
+/* 1. 码农字体栈 (Monospace Font Stack) & 全局字号设置 */
 body {
   font-family: 'Fira Code', 'Roboto Mono', 'Consolas', 'Courier New', monospace;
+  font-size: 18px;   /* 已放大字号 */
+  line-height: 1.6;  /* 增加行高，防止拥挤 */
 }
 
 /* 2. 卡片浮动效果 */
@@ -29,7 +32,6 @@ body {
   margin: 20px 0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-left: 5px solid #007bff;
-  line-height: 1.6;
 }
 
 /* 3. News 高亮区域 */
@@ -112,6 +114,7 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
 <div style="text-align: center;">
   <img src="images/unigame.jpg" alt="Framework Diagram" width="500">
 </div>
+
 </div>
 
 ✌️I successfully organized a postgraduate recommendation group. All members have been admitted to graduate programs(eg. Institute of Automation at CAS, Peking University, Nankai University, and Beijing University of Posts and Telecommunications). Congrats！
