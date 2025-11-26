@@ -112,10 +112,10 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
 
 ## News
 
-✌️Will be attending NIPS San Diego 2025, see you there!
+<strong>2025.11.26</strong>✌️Will be attending NIPS San Diego 2025, see you there!
 
 <div class="news-highlight">
-<p><span class="pulse-icon">✨</span> First-author paper <strong>UniGame: Turning a Unified Multimodal Model Into Its Own Adversary</strong> has been released on arXiv!
+<p><strong>2025.11.24</strong><span class="pulse-icon">✨</span> First-author paper <strong>UniGame: Turning a Unified Multimodal Model Into Its Own Adversary</strong> has been released on arXiv!
 <a href="https://arxiv.org/abs/2511.19413" target="_blank" class="news-btn">Paper</a>
 </p>
 
@@ -125,7 +125,7 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
 
 </div>
 
-✌️I successfully organized a postgraduate recommendation group. All members have been admitted to graduate programs(eg. Institute of Automation at CAS, Peking University, Nankai University, and Beijing University of Posts and Telecommunications). Congrats！
+<strong>2025.1.20</stron>✌️I successfully organized a postgraduate recommendation group. All members have been admitted to graduate programs(eg. Institute of Automation at CAS, Peking University, Nankai University, and Beijing University of Posts and Telecommunications). Congrats！
 
 ## Research Experience
 
