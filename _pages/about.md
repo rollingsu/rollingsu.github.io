@@ -14,14 +14,20 @@ redirect_from:
 
 ---
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
 <style>
 /* 嵌入关键CSS样式 */
 
 /* 1. 码农字体栈 (Monospace Font Stack) & 全局字号设置 */
 body {
-  font-family: 'Fira Code', 'Roboto Mono', 'Consolas', 'Courier New', monospace;
-  font-size: 18px;   /* 已放大字号 */
+  /* 这里把 Space Mono 放在第一位，如果没有加载成功则回退到 Fira Code */
+  font-family: 'Space Mono', 'Fira Code', 'Consolas', 'Courier New', monospace;
+  font-size: 17px;   /* Space Mono 字体比较宽，17px 比原来的 18px 看起来更精致 */
   line-height: 1.6;  /* 增加行高，防止拥挤 */
+  letter-spacing: -0.5px; /* Space Mono 字间距略大，收紧一点更有现代感 */
 }
 
 /* 2. 卡片浮动效果 */
@@ -55,6 +61,7 @@ body {
   margin-top: 10px;
   margin-bottom: 5px;
   transition: background-color 0.3s ease;
+  font-size: 14px; /* 稍微减小按钮字号，配合扁平化 */
 }
 
 .news-btn:hover {
