@@ -1,5 +1,4 @@
 ---
-
 permalink: /
 
 title: "Zhaolong Su"
@@ -16,18 +15,18 @@ redirect_from:
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
 <style>
 /* 嵌入关键CSS样式 */
 
 /* 1. 码农字体栈 (Monospace Font Stack) & 全局字号设置 */
 body {
-  /* 这里把 Space Mono 放在第一位，如果没有加载成功则回退到 Fira Code */
-  font-family: 'Space Mono', 'Fira Code', 'Consolas', 'Courier New', monospace;
-  font-size: 17px;   /* Space Mono 字体比较宽，17px 比原来的 18px 看起来更精致 */
+  /* 这里把 Roboto Mono 放在第一位，如果没有加载成功则回退到 Consolas 等 */
+  font-family: 'Roboto Mono', 'Consolas', 'Courier New', monospace;
+  font-size: 16px;   /* Roboto Mono 字体相对紧凑，16px 比较舒适 */
   line-height: 1.6;  /* 增加行高，防止拥挤 */
-  letter-spacing: -0.5px; /* Space Mono 字间距略大，收紧一点更有现代感 */
+  letter-spacing: -0.2px; /* 微调字间距，增加现代感 */
 }
 
 /* 2. 卡片浮动效果 */
