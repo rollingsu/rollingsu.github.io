@@ -20,14 +20,14 @@ repository               : "rollingsu/rollingsu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "IMG_20250322_145802.jpg"
+  avatar           : "myhead.jpg"
   name             : "Zhaolong Su"
   pronouns         : # example: "she/her"  
   bio              : "Rise Again"
-  location         : "Mars"
+  location         : "Williamsburg VA"
   employer         : "Beijing University of Technology"
   uri              : # URL
-  email            : "rollings2430526410@163.com" 
+  email            : "zsu05@wm.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
