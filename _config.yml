@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zhaolong Su"
+title                    : "Website"
 name                     : &name "Zhaolong Su"
 description              : &description "personal description"
 url                      : https://rollingsu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
