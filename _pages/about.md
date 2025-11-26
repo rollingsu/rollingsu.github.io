@@ -112,8 +112,10 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
 
 ## News
 
+✌️Will be attending NIPS San Diego 2025, see you there!
+
 <div class="news-highlight">
-<p><span class="pulse-icon">✨</span> Our new arxiv <strong>UniGame: Turning a Unified Multimodal Model Into Its Own Adversary</strong> has been released!
+<p><span class="pulse-icon">✨</span> First-author paper UniGame: Turning a Unified Multimodal Model Into Its Own Adversary has been released on arXiv!
 <a href="https://arxiv.org/abs/2511.19413" target="_blank" class="news-btn">Paper</a>
 </p>
 
