@@ -83,9 +83,9 @@ body {
 
 ---
 
-Hi😄, I'm Zhaolong Su, I graduated from Beijing University of Technology with a bachelor's degree, and am a first year PhD at William & Mary, I am very fortunate to be supervised by [Prof. Jindong Wang](https://jd92.wang/). I do vision related research, primarily focusing on <span class="gradient-text">**Computer Vision, Multimodal Learning, and World Model.**</span>
+Hi😄, I'm Zhaolong Su. I graduated from Beijing University of Technology with a bachelor's degree, and am a first-year PhD student at William & Mary. I am very fortunate to be supervised by [Prof. Jindong Wang](https://jd92.wang/). I do vision-related research, primarily focusing on <span class="gradient-text">**Computer Vision, Multimodal Learning, and World Model.**</span>
 
-I also conduct research at Johns Hopkins University, working with Bloomberg Distinguished Prof. Alan Yuille. Prior to that, I worked at Peking University, supervised by Prof. Wentao Zhang. I also had a wonderful experience at HKU, where we promoted the development and application of CT-free scoliosis treatment. I also interned at Chinese Academy of Sciences supervised by Prof. Guoqi Li
+I also conduct research at Johns Hopkins University, working with Bloomberg Distinguished Prof. Alan Yuille. Prior to that, I worked at Peking University, supervised by Prof. Wentao Zhang. I also had a wonderful experience at HKU, where we promoted the development and application of CT-free scoliosis treatment. I also interned at Chinese Academy of Sciences, supervised by Prof. Guoqi Li.
 
 ---
 
@@ -145,12 +145,19 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
 
 - **RA @LKS Faulty of Medicine@The University of Hong Kong**
   - *Apr. 2024-Apr. 2025*
-  - *Computer Vision*
+  - *Medical Imaging*
 
 </div>
 
 ## Album
 
-I love postmodernism and wasteland punk-style photography, And I wish to be a great photographer someday.
-
+I love postmodernism and wasteland punk-style photography, and I wish to be a great photographer someday.
 <img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Alt text" width="500" height="400">
+Places to Remember
+Beijing University of Technology
+<img src="images/bjut.jpg" alt="Alt text" width="500" height="400">
+William Mary
+<img src="images/wm.jpg" alt="Alt text" width="500" height="400">
+Johns Hopkins
+<img src="images/jhu.jpg" alt="Alt text" width="500" height="400">
+
