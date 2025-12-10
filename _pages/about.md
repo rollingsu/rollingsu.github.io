@@ -111,7 +111,7 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
 </div>
 
 ## News
-More research projects see the publication page.
+More research projects are on the publication page.
 
 <strong>2025.11.26</strong> ✌️Will be attending NIPS San Diego 2025, see you there!
 
@@ -149,6 +149,10 @@ More research projects see the publication page.
   - *Medical Imaging*
 
 </div>
+
+## Services
+
+CVPR ICCV NIPS reviewer.
 
 ## Album
 
