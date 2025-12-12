@@ -20,7 +20,7 @@ repository               : "rollingsu/rollingsu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "myhead.jpg"
+  avatar           : "mybighead.jpg"
   name             : "Zhaolong Su"
   pronouns         : # example: "she/her"  
   bio              : "Get Wild and Tough"
