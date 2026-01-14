@@ -143,8 +143,8 @@ More research projects are on the publication page.
 
 <div style="text-align: center;">
   <div class="album-row">
-  <img src="images/fig-fedumm.pdf" alt="Square Photo">
-  <img src="images/fig-gen-fedumm" alt="Rectangle Photo">
+  <img src="images/fig-pipeline.pdf" alt="Square Photo">
+  <img src="images/fig-casestudy.pdf" alt="Rectangle Photo">
 </div>
 
 </div>
