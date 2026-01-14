@@ -28,7 +28,30 @@ body {
   line-height: 1.6;  /* 增加行高，防止拥挤 */
   letter-spacing: -0.2px; /* 微调字间距，增加现代感 */
 }
+/* --- 新增相册拼图样式 --- */
+.album-row {
+  display: flex;        /* 启用弹性布局 */
+  flex-wrap: wrap;      /* 允许在小屏幕自动换行 */
+  gap: 10px;            /* 图片之间的间距 */
+  justify-content: center; /* 居中对齐 */
+  margin-bottom: 20px;
+}
 
+.album-row img {
+  height: 300px;        /* 【关键】强制固定高度，保证两张图并排时高度一样齐 */
+  width: auto;          /* 宽度自动，保持图片比例不走样 */
+  object-fit: cover;    /* 防止图片被拉伸变形 */
+  border-radius: 8px;   /* 圆角风格，和你之前的风格保持一致 */
+  flex-grow: 1;         /* 让图片自动填满剩余空间（可选） */
+}
+
+/* 手机端适配：屏幕变窄时，图片恢复原样，上下排列 */
+@media (max-width: 768px) {
+  .album-row img {
+    height: auto;
+    width: 100%;
+  }
+}
 /* 2. 卡片浮动效果 */
 .card-section {
   background-color: #f8f8f8;
@@ -119,6 +142,9 @@ More research projects are on the publication page.
 </p>
 
 <div style="text-align: center;">
+  <div class="album-row">
+  <img src="images/fig-fedumm.pdf" alt="Square Photo">
+  <img src="images/fig-gen-fedumm" alt="Rectangle Photo">
 </div>
 
 </div>
