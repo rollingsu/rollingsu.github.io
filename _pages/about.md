@@ -115,7 +115,7 @@ More research projects are on the publication page.
 
 
 <div class="news-highlight">
-<p><strong>2026.01.14</strong><span class="pulse-icon">✨</span> First-author paper FedUMM: A General Framework for Federated Learning with Unified Multimodal Models <strong>FedUMM </strong> has been accepted by FL@FM-TheWebConf'26. Congratulations!
+<p><strong>2026.01.14</strong><span class="pulse-icon">✨</span> First-author paper <strong>FedUMM: A General Framework for Federated Learning with Unified Multimodal Models</strong> has been accepted by FL@FM-TheWebConf'26. Congratulations!
 </p>
 
 <div style="text-align: center;">
