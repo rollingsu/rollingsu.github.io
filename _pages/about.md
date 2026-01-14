@@ -28,22 +28,6 @@ body {
   line-height: 1.6;  /* 增加行高，防止拥挤 */
   letter-spacing: -0.2px; /* 微调字间距，增加现代感 */
 }
-/* --- 新增相册拼图样式 --- */
-.album-row {
-  display: flex;        /* 启用弹性布局 */
-  flex-wrap: wrap;      /* 允许在小屏幕自动换行 */
-  gap: 10px;            /* 图片之间的间距 */
-  justify-content: center; /* 居中对齐 */
-  margin-bottom: 20px;
-}
-
-.album-row img {
-  height: 300px;        /* 【关键】强制固定高度，保证两张图并排时高度一样齐 */
-  width: auto;          /* 宽度自动，保持图片比例不走样 */
-  object-fit: cover;    /* 防止图片被拉伸变形 */
-  border-radius: 8px;   /* 圆角风格，和你之前的风格保持一致 */
-  flex-grow: 1;         /* 让图片自动填满剩余空间（可选） */
-}
 
 /* 手机端适配：屏幕变窄时，图片恢复原样，上下排列 */
 @media (max-width: 768px) {
@@ -136,15 +120,12 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
 ## News
 More research projects are on the publication page.
 
-
 <div class="news-highlight">
 <p><strong>2026.01.14</strong><span class="pulse-icon">✨</span> First-author paper <strong>FedUMM: A General Framework for Federated Learning with Unified Multimodal Models</strong> has been accepted by FL@FM-TheWebConf'26. Congratulations!
 </p>
 
 <div style="text-align: center;">
-  <div class="album-row">
-  <img src="images/fig-pipeline.pdf" alt="Square Photo">
-  <img src="images/fig-casestudy.pdf" alt="Rectangle Photo">
+  <img src="images/fedumm.jpg" alt="Framework Diagram" width="500">
 </div>
 
 </div>
