@@ -119,7 +119,6 @@ More research projects are on the publication page.
 </p>
 
 <div style="text-align: center;">
-  <img src="images/unigame.jpg" alt="Framework Diagram" width="500">
 </div>
 
 </div>
