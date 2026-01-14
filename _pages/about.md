@@ -113,6 +113,17 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
 ## News
 More research projects are on the publication page.
 
+
+<div class="news-highlight">
+<p><strong>2026.01.14</strong><span class="pulse-icon">✨</span> First-author paper FedUMM: A General Framework for Federated Learning with Unified Multimodal Models <strong>FedUMM </strong> has been accepted by FL@FM-TheWebConf'26. Congratulations!
+</p>
+
+<div style="text-align: center;">
+  <img src="images/unigame.jpg" alt="Framework Diagram" width="500">
+</div>
+
+</div>
+
 <strong>2025.11.26</strong> ✌️Will be attending NIPS San Diego 2025, see you there!
 
 <div class="news-highlight">
