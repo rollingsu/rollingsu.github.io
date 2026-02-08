@@ -133,7 +133,7 @@ More research projects are on the publication page.
 <strong>2025.11.26</strong> ✌️Will be attending NIPS San Diego 2025, see you there!
 
 <div class="news-highlight">
-<p><strong>2025.11.24</strong><span class="pulse-icon">✨</span> First-author paper <strong>UniGame: Turning a Unified Multimodal Model Into Its Own Adversary</strong> has been released on arXiv!
+<p><strong>2025.11.24</strong><span class="pulse-icon">✨</span> First-author paper <strong>UniGame: Turning a Unified Multimodal Model Into Its Own Adversary</strong> has been released on arXiv!(CVPR scoring 445)
 <a href="https://arxiv.org/abs/2511.19413" target="_blank" class="news-btn">Paper</a>
 </p>
 
