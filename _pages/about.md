@@ -143,7 +143,7 @@ More research projects are on the publication page.
 
 </div>
 
-<strong>2025.1.20</strong> ✌️I successfully organized a postgraduate recommendation group. All members have been admitted to graduate programs(eg. Institute of Automation at CAS, Peking University, Nankai University, and Beijing University of Posts and Telecommunications). Congrats！
+<!-- <strong>2025.1.20</strong> ✌️I successfully organized a postgraduate recommendation group. All members have been admitted to graduate programs(eg. Institute of Automation at CAS, Peking University, Nankai University, and Beijing University of Posts and Telecommunications). Congrats！ -->
 
 ## Research Experience
 
