@@ -169,7 +169,7 @@ More research projects are on the publication page.
 
 ## Services
 
-CVPR ICCV NIPS reviewer.
+CVPR ICCV NIPS KDD reviewer.
 
 ## Album
 
