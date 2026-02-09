@@ -169,7 +169,7 @@ More research projects are on the publication page.
 
 ## Services
 
-CVPR ICCV NIPS KDD reviewer.
+CVPR2026 ICCV2025 NIPS2024 KDD2026 ICML2026 reviewer.
 
 ## Album
 
