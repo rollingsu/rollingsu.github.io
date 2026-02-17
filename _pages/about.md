@@ -121,7 +121,13 @@ I also conduct research at Johns Hopkins University, working with Bloomberg Dist
 More research projects are on the publication page.
 
 <div class="news-highlight">
+<p><strong>2026.02.17</strong><span class="pulse-icon">✨</span> First-author paper <strong> Consistency Should Be the Priority for Unified Multimodal Models </strong> released!
+<a href="10.36227/techrxiv.177129961.14848580/v1" target="_blank" class="news-btn">Paper</a>
+</p>
+  
+<div class="news-highlight">
 <p><strong>2026.01.14</strong><span class="pulse-icon">✨</span> First-author paper <strong>FedUMM: A General Framework for Federated Learning with Unified Multimodal Models</strong> has been accepted by FL@FM-TheWebConf'26. Congratulations!
+<a href="https://arxiv.org/abs/2601.15390" target="_blank" class="news-btn">Paper</a>
 </p>
 
 <div style="text-align: center;">
