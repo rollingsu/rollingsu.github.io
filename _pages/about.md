@@ -124,6 +124,11 @@ More research projects are on the publication page.
 <p><strong>2026.02.17</strong><span class="pulse-icon">✨</span> First-author paper <strong> Consistency Should Be the Priority for Unified Multimodal Models </strong> released!
 <a href="10.36227/techrxiv.177129961.14848580/v1" target="_blank" class="news-btn">Paper</a>
 </p>
+
+<div style="text-align: center;">
+  <img src="images/position.jpg" alt="Framework Diagram" width="500">
+</div>
+
 </div>
 
 <div class="news-highlight">
