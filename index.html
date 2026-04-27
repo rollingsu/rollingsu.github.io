@@ -142,6 +142,32 @@
     }
     .tag:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
 
+    /* 子分组标题样式 */
+    .sub-head {
+      font-size: 16px;
+      color: var(--text);
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+    .sub-group { margin-bottom: 32px; }
+    .sub-group:last-child { margin-bottom: 0; }
+
+    .talk-item {
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .talk-item:last-child { border-bottom: none; }
+    .talk-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 4px;
+    }
+    .talk-title a { color: var(--white); }
+    .talk-title a:hover { color: var(--accent); }
+    .talk-meta { font-size: 14px; color: var(--muted); }
+    .talk-venue { color: var(--accent); font-weight: 600; }
+
     .album-desc { font-size: 16px; color: var(--muted); font-style: italic; margin-bottom: 24px; }
     .album-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
     .album-card {
@@ -367,16 +393,39 @@
     <section id="services" class="section">
       <div class="section-head">
         <span class="hash">#</span>
-        <span class="label">Teaching · Service · Tutorial</span>
+        <span class="label">Teaching · Service · Invited Talk</span>
         <div class="line"></div>
       </div>
-      <p style="font-size:16px; color:var(--text); margin-bottom:12px; font-weight: 600;">Reviewer:</p>
-      <div class="tag-list">
-        <span class="tag">CVPR 2026</span>
-        <span class="tag">ICCV 2025</span>
-        <span class="tag">NeurIPS 2024</span>
-        <span class="tag">KDD 2026</span>
-        <span class="tag">ICML 2026</span>
+
+      <div class="sub-group">
+        <p class="sub-head">Teaching</p>
+        <p style="font-size:15px; color:var(--muted); font-style:italic;">Coming soon.</p>
+      </div>
+
+      <div class="sub-group">
+        <p class="sub-head">Service · Reviewer</p>
+        <div class="tag-list">
+          <span class="tag">CVPR 2026</span>
+          <span class="tag">ICCV 2025</span>
+          <span class="tag">NeurIPS 2024</span>
+          <span class="tag">KDD 2026</span>
+          <span class="tag">ICML 2026</span>
+        </div>
+      </div>
+
+      <div class="sub-group">
+        <p class="sub-head">Invited Talk</p>
+        <div class="talk-item">
+          <div class="talk-title">
+            <a href="https://rollingsu.github.io/umm-tutorial.github.io/" target="_blank">
+              Tutorial on Unified Multimodal Models
+            </a>
+          </div>
+          <div class="talk-meta">
+            <span class="talk-venue">CVPR 2026 Tutorial</span> · 
+            <a href="https://rollingsu.github.io/umm-tutorial.github.io/" target="_blank">rollingsu.github.io/umm-tutorial.github.io</a>
+          </div>
+        </div>
       </div>
     </section>
 
