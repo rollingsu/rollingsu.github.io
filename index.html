@@ -34,8 +34,8 @@
       letter-spacing: -0.1px;
     }
 
-    a { color: var(--link); text-decoration: none; transition: all 0.2s; }
-    a:hover { color: var(--accent); opacity: 0.8; }
+    a { color: var(--link); text-decoration: none; transition: color 0.2s; }
+    a:hover { color: var(--accent); text-decoration: underline; }
 
     .page { max-width: 1050px; margin: 0 auto; display: flex; gap: 48px; padding: 60px 24px; }
 
@@ -47,20 +47,27 @@
     .sidebar a {
       font-size: 13px; color: var(--muted); text-decoration: none;
       letter-spacing: 0.8px; text-transform: uppercase; font-weight: 500;
-      transition: all 0.2s; padding: 6px 0; border-left: 2px solid transparent;
+      transition: color 0.2s; padding: 6px 0; border-left: 2px solid transparent;
     }
+    .sidebar a:hover { text-decoration: none; }
     .sidebar a.active { color: var(--accent); font-weight: 700; border-left: 2px solid var(--accent); padding-left: 12px; }
 
     .main { flex: 1; min-width: 0; }
 
     .section { margin-bottom: 70px; }
-    .section-head { display: flex; align-items: center; gap: 12px; margin-bottom: 28px; }
-    .section-head .hash { color: var(--accent); font-size: 18px; font-weight: 700; }
-    .section-head .label { font-size: 18px; font-weight: 700; color: var(--white); letter-spacing: 1.2px; text-transform: uppercase; }
-    .section-head .line { flex: 1; height: 1px; background: var(--border); }
+
+    /* Section heading: small left-aligned label + thin underline */
+    .section-head {
+      margin-bottom: 28px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-head .label {
+      font-size: 16px; font-weight: 700; color: var(--white);
+      letter-spacing: 1px; text-transform: uppercase;
+    }
 
     .about-top { display: flex; gap: 30px; align-items: center; margin-bottom: 24px; }
-    /* 头像尺寸放大：110px -> 130px */
     .avatar {
       width: 130px; height: 130px; border-radius: 20px; flex-shrink: 0;
       border: 1px solid var(--border);
@@ -71,45 +78,26 @@
     .about-top .tagline { font-size: 16px; color: var(--accent); font-weight: 600; letter-spacing: 0.2px; }
     .about-text { color: var(--text); margin-bottom: 16px; font-size: 17px; }
 
-    /* Logo row 整体容器放大，间距增加：24px -> 30px */
     .logo-row { display: flex; align-items: center; gap: 30px; margin-top: 30px; flex-wrap: wrap; }
     .logo-row img { filter: none; opacity: 0.9; transition: opacity 0.2s; object-fit: contain;}
     .logo-row img:hover { opacity: 1; }
-    /* 调整具体 Logo 高度 */
-    .logo-row .logo-jhu { height: 50px; } /* 38 -> 50 */
-    .logo-row .logo-pku { height: 55px; } /* 42 -> 55 */
-    .logo-row .logo-hku { height: 50px; } /* 38 -> 50 */
-    .logo-row .logo-bjut { height: 55px; } /* 42 -> 55 */
+    .logo-row .logo-jhu { height: 50px; }
+    .logo-row .logo-pku { height: 55px; }
+    .logo-row .logo-hku { height: 50px; }
+    .logo-row .logo-bjut { height: 55px; }
 
-    .pub-card {
-      display: flex; gap: 24px; padding: 24px; margin-bottom: 20px;
-      border-radius: 12px; background: var(--surface);
-      border: 1px solid var(--border);
-      transition: all 0.3s ease;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    /* ---- PUBLICATIONS: no cards, plain text list ---- */
+    .pub-item {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--border);
     }
-    .pub-card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 10px 25px rgba(0,0,0,0.06); }
-    .pub-card.accepted { border-left: 4px solid var(--accent); }
-    .pub-img-wrap {
-      flex-shrink: 0; width: 220px; height: 140px; border-radius: 8px;
-      overflow: hidden; background: #f1f3f5; border: 1px solid var(--border);
-    }
-    .pub-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .pub-body { flex: 1; min-width: 0; display: flex; flex-direction: column; }
-    .pub-title { font-size: 18px; font-weight: 700; color: var(--white); line-height: 1.4; margin-bottom: 8px; }
-    .pub-authors { font-size: 15px; color: var(--muted); margin-bottom: 6px; }
+    .pub-item:last-of-type { border-bottom: none; }
+    .pub-title { font-size: 18px; font-weight: 700; color: var(--white); line-height: 1.4; margin-bottom: 6px; }
+    .pub-authors { font-size: 15px; color: var(--muted); margin-bottom: 4px; }
     .pub-authors .first-author { color: var(--text); font-weight: 700; text-decoration: underline; text-decoration-color: var(--accent); }
     .pub-venue { font-size: 15px; color: var(--accent); font-weight: 600; margin-bottom: 6px; }
-    .pub-desc { font-size: 14px; color: var(--muted); font-style: italic; margin-bottom: 12px; }
-    .pub-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; }
-    .pub-btn {
-      display: inline-flex; align-items: center; gap: 6px;
-      font-size: 13px; font-family: var(--font); color: var(--muted);
-      border: 1px solid var(--border); border-radius: 6px;
-      padding: 5px 14px; background: #fafbfc;
-      text-decoration: none; transition: all 0.2s;
-    }
-    .pub-btn:hover { background: var(--accent); color: white; border-color: var(--accent); }
+    .pub-links { font-size: 14px; color: var(--muted); }
+    .pub-links a { color: var(--link); margin-right: 14px; }
 
     .news-scroll { max-height: 360px; overflow-y: auto; padding-right: 8px; }
     .news-item { display: flex; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--border); }
@@ -118,11 +106,16 @@
     .news-text { font-size: 16px; color: var(--text); line-height: 1.6; }
     .news-text.highlight { color: var(--white); font-weight: 600; background: linear-gradient(120deg, var(--accent-dim) 0%, var(--accent-dim) 100%); }
 
-    .exp-item { margin-bottom: 24px; padding-left: 20px; border-left: 2px solid var(--border); }
-    .exp-item:hover { border-left-color: var(--accent); }
+    /* ---- EXPERIENCE: no left border, plain list ---- */
+    .exp-item {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .exp-item:last-of-type { border-bottom: none; }
     .exp-place { font-size: 18px; font-weight: 700; color: var(--white); }
     .exp-detail { font-size: 15px; color: var(--muted); margin-top: 4px; }
 
+    /* ---- EDUCATION: plain list, keep horizontal layout but lighter ---- */
     .edu-item { display: flex; align-items: center; gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--border); }
     .edu-item:last-child { border-bottom: none; }
     .edu-time { font-size: 15px; color: var(--muted); min-width: 100px; font-weight: 500; flex-shrink: 0;}
@@ -130,19 +123,17 @@
     .edu-school { font-size: 18px; font-weight: 700; color: var(--white); }
     .edu-school.accent { color: var(--accent); }
     .edu-role { font-size: 15px; color: var(--muted); margin-left: auto; flex-shrink: 0;}
-    /* 教育 Logo 尺寸放大：32px -> 40px */
-    .edu-logo { height: 40px; filter: none; opacity: 1; object-fit: contain;} 
+    .edu-logo { height: 40px; filter: none; opacity: 1; object-fit: contain;}
 
     .tag-list { display: flex; flex-wrap: wrap; gap: 8px; }
     .tag {
       font-size: 14px; color: var(--text); font-weight: 500;
       border: 1px solid var(--border); padding: 5px 14px;
       border-radius: 20px; background: var(--surface);
-      transition: all 0.2s;
+      transition: color 0.2s, border-color 0.2s;
     }
-    .tag:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+    .tag:hover { border-color: var(--accent); color: var(--accent); }
 
-    /* 子分组标题样式 */
     .sub-head {
       font-size: 16px;
       color: var(--text);
@@ -168,18 +159,17 @@
     .talk-meta { font-size: 14px; color: var(--muted); }
     .talk-venue { color: var(--accent); font-weight: 600; }
 
+    /* ---- ALBUM: single-column, no card grid ---- */
     .album-desc { font-size: 16px; color: var(--muted); font-style: italic; margin-bottom: 24px; }
-    .album-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-    .album-card {
-      border-radius: 12px; aspect-ratio: 16/10; overflow: hidden;
-      border: 1px solid var(--border); position: relative;
+    .album-list { display: flex; flex-direction: column; gap: 32px; }
+    .album-figure { margin: 0; }
+    .album-figure img {
+      width: 100%; height: auto; display: block;
+      border: 1px solid var(--border);
     }
-    .album-card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: all 0.6s ease; }
-    .album-card:hover img { transform: scale(1.05); }
-    .album-label {
-      position: absolute; bottom: 12px; left: 12px;
-      font-size: 12px; color: white; font-weight: 600;
-      background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); padding: 4px 10px; border-radius: 6px;
+    .album-figure figcaption {
+      font-size: 14px; color: var(--muted);
+      margin-top: 8px; font-style: italic;
     }
 
     .footer { border-top: 1px solid var(--border); padding: 40px 0; margin-top: 60px; text-align: center; }
@@ -194,8 +184,6 @@
       .sidebar { position: static; flex-direction: row; flex-wrap: wrap; gap: 12px; min-width: auto; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
       .sidebar a.active { border-left: none; border-bottom: 2px solid var(--accent); padding-left: 0; padding-bottom: 4px; }
       .about-top { flex-direction: column; text-align: center; gap: 20px;}
-      .pub-card { flex-direction: column; }
-      .pub-img-wrap { width: 100%; height: 200px; }
       .edu-item { flex-direction: column; align-items: flex-start; gap: 10px;}
       .edu-time { min-width: auto;}
       .edu-content { width: 100%; gap: 10px;}
@@ -226,7 +214,7 @@
         </div>
       </div>
       <p class="about-text">
-        I am an Incoming PhD at Cornell University. 
+        I am an Incoming PhD at Cornell University.
         Before that, I Graduated from Beijing University of Technology (B.Eng in Artificial Intelligence).
       </p>
       <p class="about-text">
@@ -248,63 +236,44 @@
 
     <section id="publications" class="section">
       <div class="section-head">
-        <span class="hash">#</span>
         <span class="label">Selected Publications</span>
-        <div class="line"></div>
       </div>
 
-      <div class="pub-card accepted">
-        <div class="pub-img-wrap">
-          <img src="images/fedumm.jpg" alt="FedUMM Framework" />
-        </div>
-        <div class="pub-body">
-          <div class="pub-title">FedUMM: A General Framework for Federated Learning with Unified Multimodal Models</div>
-          <div class="pub-authors"><span class="first-author">Zhaolong Su</span>, et al.</div>
-          <div class="pub-venue">FL@FM-TheWebConf'26</div>
-          <div class="pub-links">
-            <a href="https://arxiv.org/abs/2601.15390" target="_blank" class="pub-btn">📄 Paper</a>
-            <a href="https://arxiv.org/abs/2601.15390" target="_blank" class="pub-btn">↗ arXiv</a>
-          </div>
+      <div class="pub-item">
+        <div class="pub-title">FedUMM: A General Framework for Federated Learning with Unified Multimodal Models</div>
+        <div class="pub-authors"><span class="first-author">Zhaolong Su</span>, et al.</div>
+        <div class="pub-venue">FL@FM-TheWebConf'26</div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2601.15390" target="_blank">paper</a>
+          <a href="https://arxiv.org/abs/2601.15390" target="_blank">arXiv</a>
         </div>
       </div>
 
-      <div class="pub-card">
-        <div class="pub-img-wrap">
-          <img src="images/position.jpg" alt="Position Paper Framework" />
-        </div>
-        <div class="pub-body">
-          <div class="pub-title">Consistency Should Be the Priority for Unified Multimodal Models</div>
-          <div class="pub-authors"><span class="first-author">Zhaolong Su</span>, et al.</div>
-          <div class="pub-venue">ICML 2026 (Under-review)</div>
-          <div class="pub-links">
-            <a href="https://doi.org/10.36227/techrxiv.177129961.14848580/v1" target="_blank" class="pub-btn">📄 Paper</a>
-          </div>
+      <div class="pub-item">
+        <div class="pub-title">Consistency Should Be the Priority for Unified Multimodal Models</div>
+        <div class="pub-authors"><span class="first-author">Zhaolong Su</span>, et al.</div>
+        <div class="pub-venue">ICML 2026 (Under-review)</div>
+        <div class="pub-links">
+          <a href="https://doi.org/10.36227/techrxiv.177129961.14848580/v1" target="_blank">paper</a>
         </div>
       </div>
 
-      <div class="pub-card accepted">
-        <div class="pub-img-wrap">
-          <img src="images/unigame.jpg" alt="UniGame Framework" />
-        </div>
-        <div class="pub-body">
-          <div class="pub-title">UniGame: Turning a Unified Multimodal Model Into Its Own Adversary</div>
-          <div class="pub-authors"><span class="first-author">Zhaolong Su</span>, et al.</div>
-          <div class="pub-venue">CVPR'26 (Scoring 554)</div>
-          <div class="pub-links">
-            <a href="https://arxiv.org/abs/2511.19413" target="_blank" class="pub-btn">📄 Paper</a>
-            <a href="https://arxiv.org/abs/2511.19413" target="_btn">↗ arXiv</a>
-          </div>
+      <div class="pub-item">
+        <div class="pub-title">UniGame: Turning a Unified Multimodal Model Into Its Own Adversary</div>
+        <div class="pub-authors"><span class="first-author">Zhaolong Su</span>, et al.</div>
+        <div class="pub-venue">CVPR'26 (Scoring 554)</div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2511.19413" target="_blank">paper</a>
+          <a href="https://arxiv.org/abs/2511.19413" target="_blank">arXiv</a>
         </div>
       </div>
 
-      <p style="font-size:14px; color:var(--muted); margin-top:16px; padding-left:4px;">→ More on the publication page.</p>
+      <p style="font-size:14px; color:var(--muted); margin-top:16px; padding-left:4px;">More on the publication page.</p>
     </section>
 
     <section id="news" class="section">
       <div class="section-head">
-        <span class="hash">#</span>
         <span class="label">News</span>
-        <div class="line"></div>
       </div>
       <div class="news-scroll">
         <div class="news-item">
@@ -332,9 +301,7 @@
 
     <section id="experience" class="section">
       <div class="section-head">
-        <span class="hash">#</span>
         <span class="label">Research Experience</span>
-        <div class="line"></div>
       </div>
       <div class="exp-item">
         <div class="exp-place">Johns Hopkins University</div>
@@ -355,9 +322,7 @@
 
     <section id="education" class="section">
       <div class="section-head">
-        <span class="hash">#</span>
         <span class="label">Education</span>
-        <div class="line"></div>
       </div>
       <div class="edu-item">
         <span class="edu-time">Fall 2026</span>
@@ -387,9 +352,7 @@
 
     <section id="services" class="section">
       <div class="section-head">
-        <span class="hash">#</span>
         <span class="label">Teaching · Service · Invited Talk</span>
-        <div class="line"></div>
       </div>
 
       <div class="sub-group">
@@ -417,7 +380,7 @@
             </a>
           </div>
           <div class="talk-meta">
-            <span class="talk-venue">CVPR 2026 Tutorial</span> · 
+            <span class="talk-venue">CVPR 2026 Tutorial</span> ·
             <a href="https://rollingsu.github.io/umm-tutorial.github.io/" target="_blank">rollingsu.github.io/umm-tutorial.github.io</a>
           </div>
         </div>
@@ -426,28 +389,26 @@
 
     <section id="album" class="section">
       <div class="section-head">
-        <span class="hash">#</span>
         <span class="label">Album</span>
-        <div class="line"></div>
       </div>
       <p class="album-desc">I love postmodernism and wasteland punk-style photography, and I wish to be a great photographer someday.</p>
-      <div class="album-grid">
-        <div class="album-card">
+      <div class="album-list">
+        <figure class="album-figure">
           <img src="images/bjut.jpg" alt="BJUT" />
-          <span class="album-label">Beijing University of Technology</span>
-        </div>
-        <div class="album-card">
+          <figcaption>Beijing University of Technology</figcaption>
+        </figure>
+        <figure class="album-figure">
           <img src="images/wm.jpg" alt="William & Mary" />
-          <span class="album-label">William &amp; Mary</span>
-        </div>
-        <div class="album-card">
+          <figcaption>William &amp; Mary</figcaption>
+        </figure>
+        <figure class="album-figure">
           <img src="images/jhu.jpg" alt="Johns Hopkins" />
-          <span class="album-label">Johns Hopkins</span>
-        </div>
-        <div class="album-card">
+          <figcaption>Johns Hopkins</figcaption>
+        </figure>
+        <figure class="album-figure">
           <img src="images/29b43996eda14b16a3282b326e3f121.jpg" alt="Wasteland" />
-          <span class="album-label">Wasteland</span>
-        </div>
+          <figcaption>Wasteland</figcaption>
+        </figure>
       </div>
       <p class="album-footer">Places to Remember</p>
     </section>
