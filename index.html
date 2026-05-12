@@ -250,15 +250,36 @@
       letter-spacing: 0.3px;
     }
 
-    .footer { border-top: 1px solid var(--border); padding: 40px 0; margin-top: 60px; text-align: center; }
-    .footer span { font-size: 13px; color: var(--muted); letter-spacing: 1px; }
-
+    .footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 0;
+      margin-top: 60px;
+      text-align: center;
+      max-width: 1050px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
     .visitor-map {
       margin-bottom: 24px;
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 10px;
+      overflow: hidden;
+    }
+    
+    .visitor-map img,
+    .visitor-map iframe,
+    .visitor-map canvas,
+    .visitor-map svg,
+    .visitor-map object,
+    .visitor-map embed {
+      width: 200px !important;
+      max-width: 200px !important;
+      height: auto !important;
+      display: block;
+      opacity: 0.85;
     }
     .visitor-label {
       font-size: 12px;
@@ -266,11 +287,6 @@
       letter-spacing: 1px;
       text-transform: uppercase;
       font-weight: 600;
-    }
-    .visitor-map img {
-      max-width: 200px;
-      height: auto;
-      opacity: 0.85;
     }
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
