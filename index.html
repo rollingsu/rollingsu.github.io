@@ -141,10 +141,27 @@
 
     /* ---- PUBLICATIONS: no cards, plain text list ---- */
     .pub-item {
+      display: flex;
+      gap: 24px;
       padding: 18px 0;
       border-bottom: 1px solid var(--border);
+      align-items: flex-start;
     }
     .pub-item:last-of-type { border-bottom: none; }
+    .pub-thumb {
+      flex-shrink: 0;
+      width: 180px;
+      aspect-ratio: 16 / 10;
+      overflow: hidden;
+      background: #f1f3f5;
+    }
+    .pub-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .pub-body { flex: 1; min-width: 0; }
     .pub-title { font-size: 18px; font-weight: 700; color: var(--white); line-height: 1.4; margin-bottom: 6px; }
     .pub-authors { font-size: 15px; color: var(--muted); margin-bottom: 4px; }
     .pub-authors .first-author { color: var(--text); font-weight: 700; text-decoration: underline; text-decoration-color: var(--accent); }
@@ -250,6 +267,8 @@
       .edu-time { min-width: auto;}
       .edu-content { width: 100%; gap: 10px;}
       .edu-role { margin-left: 0; text-align: left; width: 100%;}
+      .pub-item { flex-direction: column; }
+      .pub-thumb { width: 100%; }
     }
   </style>
 </head>
@@ -321,32 +340,47 @@
       </div>
       
       <div class="pub-item">
-        <div class="pub-title">UniGame: Turning a Unified Multimodal Model Into Its Own Adversary</div>
-        <div class="pub-authors"><span class="first-author">Zhaolong Su</span>, et al.</div>
-        <div class="pub-venue">CVPR'26 (Scoring 554)</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2511.19413" target="_blank">paper</a>
-          <a href="https://arxiv.org/abs/2511.19413" target="_blank">arXiv</a>
+        <div class="pub-thumb">
+          <img src="images/unigame.jpg" alt="UniGame Framework" />
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">UniGame: Turning a Unified Multimodal Model Into Its Own Adversary</div>
+          <div class="pub-authors"><span class="first-author">Zhaolong Su</span>, et al.</div>
+          <div class="pub-venue">CVPR'26 (Scoring 554)</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2511.19413" target="_blank">paper</a>
+            <a href="https://arxiv.org/abs/2511.19413" target="_blank">arXiv</a>
+          </div>
         </div>
       </div>
 
       <div class="pub-item">
-        <div class="pub-title">FedUMM: A General Framework for Federated Learning with Unified Multimodal Models</div>
-        <div class="pub-authors"><span class="first-author">Zhaolong Su</span>, et al.</div>
-        <div class="pub-venue">FL@FM-TheWebConf'26</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2601.15390" target="_blank">paper</a>
-          <a href="https://arxiv.org/abs/2601.15390" target="_blank">arXiv</a>
+        <div class="pub-thumb">
+          <img src="images/fedumm.jpg" alt="FedUMM Framework" />
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">FedUMM: A General Framework for Federated Learning with Unified Multimodal Models</div>
+          <div class="pub-authors"><span class="first-author">Zhaolong Su</span>, et al.</div>
+          <div class="pub-venue">FL@FM-TheWebConf'26</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2601.15390" target="_blank">paper</a>
+            <a href="https://arxiv.org/abs/2601.15390" target="_blank">arXiv</a>
+          </div>
         </div>
       </div>
 
       <div class="pub-item">
-        <div class="pub-title">Consistency Should Be the Priority for Unified Multimodal Models</div>
-        <div class="pub-authors"><span class="first-author">Zhaolong Su</span>, et al.</div>
-        <div class="pub-venue">ICML 2026 (Under-review)</div>
-        <div class="pub-links">
-          <a href="https://doi.org/10.36227/techrxiv.177129961.14848580/v1" target="_blank">paper</a>
-          <a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.177129961.14848580/v1" target="_blank">TechrXiv</a>
+        <div class="pub-thumb">
+          <img src="images/position.jpg" alt="Position Paper Framework" />
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Consistency Should Be the Priority for Unified Multimodal Models</div>
+          <div class="pub-authors"><span class="first-author">Zhaolong Su</span>, et al.</div>
+          <div class="pub-venue">ICML 2026 (Under-review)</div>
+          <div class="pub-links">
+            <a href="https://doi.org/10.36227/techrxiv.177129961.14848580/v1" target="_blank">paper</a>
+            <a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.177129961.14848580/v1" target="_blank">TechrXiv</a>
+          </div>
         </div>
       </div>
       <p style="font-size:14px; color:var(--muted); margin-top:16px; padding-left:4px;">More on the publication page.</p>
