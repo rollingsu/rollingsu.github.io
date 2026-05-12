@@ -6,7 +6,7 @@
   <title>Zhaolong Su</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Sixtyfour+Convergence&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sixtyfour+Convergence&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -19,13 +19,10 @@
       --white: #1a1a1b;
       --accent: #2d5af0;
       --accent-dim: rgba(45, 90, 240, 0.05);
-      --link: #0984e3;
-      --font: 'JetBrains Mono', 'Fira Code', 'Roboto Mono', monospace;
+      --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     }
 
     html { scroll-behavior: smooth; }
-    
-    <link rel="icon" type="image/png" href="images/favicon.png">
     
     body {
       font-family: var(--font);
@@ -36,7 +33,7 @@
       letter-spacing: -0.1px;
     }
 
-    a { color: var(--link); text-decoration: none; transition: color 0.2s; }
+    a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
     a:hover { color: var(--accent); text-decoration: underline; }
 
     .page { max-width: 1050px; margin: 0 auto; display: flex; gap: 48px; padding: 60px 24px; }
@@ -169,7 +166,7 @@
     .pub-authors .first-author { color: var(--text); font-weight: 700; text-decoration: underline; text-decoration-color: var(--accent); }
     .pub-venue { font-size: 15px; color: var(--accent); font-weight: 600; margin-bottom: 6px; }
     .pub-links { font-size: 14px; color: var(--muted); }
-    .pub-links a { color: var(--link); margin-right: 14px; }
+    .pub-links a { color: var(--accent); margin-right: 14px; }
 
     .news-scroll { max-height: 360px; overflow-y: auto; padding-right: 8px; }
     .news-item { display: flex; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--border); }
@@ -273,6 +270,7 @@
       .pub-thumb { width: 100%; }
     }
   </style>
+  <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
 
