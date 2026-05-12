@@ -169,15 +169,24 @@
 
     /* ---- ALBUM: single-column, no card grid ---- */
     .album-desc { font-size: 16px; color: var(--muted); font-style: italic; margin-bottom: 24px; }
-    .album-list { display: flex; flex-direction: column; gap: 32px; }
+    .album-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 24px;
+    }
     .album-figure { margin: 0; }
     .album-figure img {
-      width: 100%; height: auto; display: block;
-      border: 1px solid var(--border);
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      display: block;
     }
     .album-figure figcaption {
-      font-size: 14px; color: var(--muted);
-      margin-top: 8px; font-style: italic;
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 8px;
+      font-style: italic;
+      letter-spacing: 0.3px;
     }
 
     .footer { border-top: 1px solid var(--border); padding: 40px 0; margin-top: 60px; text-align: center; }
