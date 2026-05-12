@@ -253,6 +253,25 @@
     .footer { border-top: 1px solid var(--border); padding: 40px 0; margin-top: 60px; text-align: center; }
     .footer span { font-size: 13px; color: var(--muted); letter-spacing: 1px; }
 
+    .visitor-map {
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .visitor-label {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    .visitor-map img {
+      max-width: 200px;
+      height: auto;
+      opacity: 0.85;
+    }
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 10px; }
@@ -513,10 +532,14 @@
       <p class="album-footer">Places to Remember</p>
     </section>
 
-    <div class="footer">
-      <span>© 2025 Zhaolong Su | Academic Portfolio</span>
-    </div>
   </main>
+    <div class="footer">
+        <div class="visitor-map">
+          <p class="visitor-label">Visitors</p>
+          <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=p7vPjCJ0azsiUSy5gPIR1JrojDzzQwwJ_58t07mVnlM"></script>
+        </div>
+        <span>© 2026 Zhaolong Su | Academic Portfolio</span>
+      </div>
 </div>
 
 <script>
