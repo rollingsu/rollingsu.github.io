@@ -53,12 +53,12 @@
 
     .main { flex: 1; min-width: 0; }
 
-    .section { margin-bottom: 70px; }
+    .section { margin-bottom: 44px; }
 
     /* Section heading: small left-aligned label + thin underline */
     .section-head {
-      margin-bottom: 28px;
-      padding-bottom: 12px;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
       border-bottom: 1px solid var(--border);
     }
     .section-head .label {
@@ -84,7 +84,7 @@
     }
     .about-top .tagline {
       font-size: 17px;
-      color: var(--muted);          /* 灰色 */
+      color: var(--muted);
       font-weight: 400;
       letter-spacing: 0.3px;
       margin-top: 4px;
@@ -120,7 +120,7 @@
       transition: color 0.2s;
     }
     .social-links a:hover {
-      color: #e8742c;            /* 和名字的橙色呼应 */
+      color: #e8742c;
       text-decoration: none;
     }
     .social-links svg {
@@ -138,11 +138,11 @@
     .logo-row .logo-hku { height: 50px; }
     .logo-row .logo-bjut { height: 55px; }
 
-    /* ---- PUBLICATIONS: no cards, plain text list ---- */
+    /* ---- PUBLICATIONS ---- */
     .pub-item {
       display: flex;
       gap: 24px;
-      padding: 18px 0;
+      padding: 14px 0;
       border-bottom: 1px solid var(--border);
       align-items: flex-start;
     }
@@ -175,29 +175,38 @@
     .news-text { font-size: 14px; color: var(--text); line-height: 1.4; }
     .news-text.highlight { color: var(--white); font-weight: 600; background: linear-gradient(120deg, var(--accent-dim) 0%, var(--accent-dim) 100%); }
 
-    /* ---- EXPERIENCE: no left border, plain list ---- */
+    /* ---- EXPERIENCE ---- */
     .exp-item {
-      padding: 16px 0;
+      padding: 12px 0;
       border-bottom: 1px solid var(--border);
     }
     .exp-item:last-of-type { border-bottom: none; }
     .exp-place { font-size: 18px; font-weight: 700; color: var(--white); }
     .exp-detail { font-size: 15px; color: var(--muted); margin-top: 4px; }
 
-    /* ---- EDUCATION: plain list, keep horizontal layout but lighter ---- */
-    .edu-item { display: flex: 1; align-items: center; gap: 8px; padding: 14px 0; border-bottom: none; }
-    .edu-item:last-child { border-bottom: none; }
-    .edu-time { font-size: 15px; color: var(--muted); min-width: 100px; font-weight: 500; flex-shrink: 0;}
+    /* ---- EDUCATION: two items side by side ---- */
+    .edu-container {
+      display: flex;
+      gap: 40px;
+    }
+    .edu-item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+      flex: 1;
+    }
+    .edu-time { font-size: 14px; color: var(--muted); font-weight: 500; }
     .edu-content { 
       display: flex; 
-      flex-direction: column; /* 内容垂直排布 */
+      flex-direction: column;
       align-items: flex-start; 
       gap: 4px; 
     }
-    .edu-school { font-size: 18px; font-weight: 700; color: var(--white); }
+    .edu-school { font-size: 17px; font-weight: 700; color: var(--white); }
     .edu-school.accent { color: var(--accent); }
-    .edu-role { font-size: 15px; color: var(--muted); margin-left: 0; flex-shrink: 0;}
-    .edu-logo { height: 40px; filter: none; opacity: 1; object-fit: contain;}
+    .edu-role { font-size: 14px; color: var(--muted); }
+    .edu-logo { height: 36px; filter: none; opacity: 1; object-fit: contain; }
 
     .tag-list { display: flex; flex-wrap: wrap; gap: 8px; }
     .tag {
@@ -214,7 +223,7 @@
       font-weight: 600;
       margin-bottom: 14px;
     }
-    .sub-group { margin-bottom: 32px; }
+    .sub-group { margin-bottom: 24px; }
     .sub-group:last-child { margin-bottom: 0; }
 
     .talk-item {
@@ -233,12 +242,12 @@
     .talk-meta { font-size: 14px; color: var(--muted); }
     .talk-venue { color: var(--accent); font-weight: 600; }
 
-    /* ---- ALBUM: single-column, no card grid ---- */
+    /* ---- ALBUM ---- */
     .album-desc { font-size: 16px; color: var(--muted); font-style: italic; margin-bottom: 24px; }
     .album-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 32px 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px 24px;
     }
     .album-figure { margin: 0; }
     .album-figure img {
@@ -258,7 +267,7 @@
     .footer {
       border-top: 1px solid var(--border);
       padding: 40px 0;
-      margin-top: 60px;
+      margin-top: 40px;
       text-align: center;
       max-width: 1050px;
       margin-left: auto;
@@ -304,10 +313,8 @@
       .sidebar { position: static; flex-direction: row; flex-wrap: wrap; gap: 12px; min-width: auto; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
       .sidebar a.active { border-left: none; border-bottom: 2px solid var(--accent); padding-left: 0; padding-bottom: 4px; }
       .about-top { flex-direction: column; text-align: center; gap: 20px;}
-      .edu-item { flex-direction: column; align-items: flex-start; gap: 10px;}
-      .edu-time { min-width: auto;}
-      .edu-content { width: 100%; gap: 10px;}
-      .edu-role { margin-left: 0; text-align: left; width: 100%;}
+      .edu-container { flex-direction: column; gap: 20px; }
+      .edu-item { flex-direction: column; align-items: flex-start; gap: 6px;}
       .pub-item { flex-direction: column; }
       .pub-thumb { width: 100%; }
     }
@@ -464,7 +471,6 @@
       <div class="section-head">
         <span class="label">Education</span>
       </div>
-      <!-- 新增一个容器包裹 -->
       <div class="edu-container">
         <div class="edu-item">
           <span class="edu-time">Fall 2026</span>
