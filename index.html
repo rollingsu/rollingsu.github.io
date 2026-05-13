@@ -168,11 +168,11 @@
     .pub-links { font-size: 14px; color: var(--muted); }
     .pub-links a { color: var(--accent); margin-right: 14px; }
 
-    .news-scroll { max-height: 360px; overflow-y: auto; padding-right: 8px; }
-    .news-item { display: flex; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--border); }
+    .news-scroll { max-height: 260px; overflow-y: auto; padding-right: 8px; }
+    .news-item { display: flex; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--border); }
     .news-item:last-child { border-bottom: none; }
-    .news-date { font-size: 15px; color: var(--muted); min-width: 75px; font-weight: 600; }
-    .news-text { font-size: 16px; color: var(--text); line-height: 1.6; }
+    .news-date { font-size: 14px; color: var(--muted); min-width: 65px; font-weight: 600; }
+    .news-text { font-size: 14px; color: var(--text); line-height: 1.4; }
     .news-text.highlight { color: var(--white); font-weight: 600; background: linear-gradient(120deg, var(--accent-dim) 0%, var(--accent-dim) 100%); }
 
     /* ---- EXPERIENCE: no left border, plain list ---- */
@@ -185,13 +185,18 @@
     .exp-detail { font-size: 15px; color: var(--muted); margin-top: 4px; }
 
     /* ---- EDUCATION: plain list, keep horizontal layout but lighter ---- */
-    .edu-item { display: flex; align-items: center; gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .edu-item { display: flex: 1; align-items: center; gap: 8px; padding: 14px 0; border-bottom: none; }
     .edu-item:last-child { border-bottom: none; }
     .edu-time { font-size: 15px; color: var(--muted); min-width: 100px; font-weight: 500; flex-shrink: 0;}
-    .edu-content { display: flex; align-items: center; gap: 15px; flex: 1;}
+    .edu-content { 
+      display: flex; 
+      flex-direction: column; /* 内容垂直排布 */
+      align-items: flex-start; 
+      gap: 4px; 
+    }
     .edu-school { font-size: 18px; font-weight: 700; color: var(--white); }
     .edu-school.accent { color: var(--accent); }
-    .edu-role { font-size: 15px; color: var(--muted); margin-left: auto; flex-shrink: 0;}
+    .edu-role { font-size: 15px; color: var(--muted); margin-left: 0; flex-shrink: 0;}
     .edu-logo { height: 40px; filter: none; opacity: 1; object-fit: contain;}
 
     .tag-list { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -459,20 +464,24 @@
       <div class="section-head">
         <span class="label">Education</span>
       </div>
-      <div class="edu-item">
-        <span class="edu-time">Fall 2026</span>
-        <div class="edu-content">
-          <img class="edu-logo" src="images/cornell.png" alt="Cornell" />
-          <span class="edu-school">Cornell University</span>
-          <span class="edu-role">PhD in System Engineering</span>
+      <!-- 新增一个容器包裹 -->
+      <div class="edu-container">
+        <div class="edu-item">
+          <span class="edu-time">Fall 2026</span>
+          <div class="edu-content">
+            <img class="edu-logo" src="images/cornell.png" alt="Cornell" />
+            <span class="edu-school">Cornell University</span>
+            <span class="edu-role">PhD in System Engineering</span>
+          </div>
         </div>
-      </div>
-      <div class="edu-item">
-        <span class="edu-time">2021 – 2025</span>
-        <div class="edu-content">
-          <img class="edu-logo" src="images/image.png" alt="BJUT" />
-          <span class="edu-school">Beijing University of Technology</span>
-          <span class="edu-role">B.Eng in Artificial Intelligence</span>
+    
+        <div class="edu-item">
+          <span class="edu-time">2021 – 2025</span>
+          <div class="edu-content">
+            <img class="edu-logo" src="images/image.png" alt="BJUT" />
+            <span class="edu-school">Beijing University of Technology</span>
+            <span class="edu-role">B.Eng in Artificial Intelligence</span>
+          </div>
         </div>
       </div>
     </section>
