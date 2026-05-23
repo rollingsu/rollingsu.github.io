@@ -28,8 +28,8 @@
       font-family: var(--font);
       background: var(--bg);
       color: var(--text);
-      font-size: 17px;
-      line-height: 1.7;
+      font-size: 15px;
+      line-height: 1.65;
       letter-spacing: -0.1px;
     }
 
@@ -308,7 +308,38 @@
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 10px; }
-
+    /* Smaller overall typography */
+    .about-text { font-size: 15px; }
+    .about-top h1 { font-size: 29px; }
+    .about-top .tagline,
+    .about-top .email { font-size: 15px; }
+    
+    .section-head .label { font-size: 14px; }
+    
+    .pub-title { font-size: 16px; }
+    .pub-authors,
+    .pub-venue { font-size: 14px; }
+    .pub-links { font-size: 13px; }
+    
+    .news-date,
+    .news-text,
+    .talk-meta,
+    .exp-detail,
+    .edu-time,
+    .edu-role,
+    .service-list { font-size: 13.5px; }
+    
+    .sub-head { font-size: 14px; }
+    .album-desc { font-size: 14px; }
+    
+    .pub-category {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin: 4px 0 10px;
+    }
     @media (max-width: 768px) {
       .page { flex-direction: column; gap: 32px; padding: 40px 20px; }
       .sidebar { position: static; flex-direction: row; flex-wrap: wrap; gap: 12px; min-width: auto; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
@@ -426,7 +457,7 @@
       <div class="section-head">
         <span class="label">Selected Publications</span>
       </div>
-      
+      <div class="pub-category">Unified Models</div>
       <div class="pub-item">
         <div class="pub-thumb">
           <img src="images/unigame.jpg" alt="UniGame Framework" />
@@ -499,7 +530,7 @@
       </div>
     </section> -->
 
-    <section id="experience" class="section">
+    <!-- <section id="experience" class="section">
       <div class="section-head">
         <span class="label">Research Experience</span>
       </div>
@@ -518,7 +549,7 @@
         <div class="exp-detail">RA · Medical Imaging</div>
         <div class="exp-detail">Apr 2023 – Apr 2024</div>
       </div>
-    </section>
+    </section> -->
 
     <section id="services" class="section">
       <div class="section-head">
