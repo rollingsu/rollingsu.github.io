@@ -6,31 +6,30 @@
   <title>Zhaolong Su</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sixtyfour+Convergence&family=Zhi+Mang+Xing&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inconsolata:wght@400;500&family=Zhi+Mang+Xing&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-
     :root {
-      --bg: #f8f9fb;
+      /* Tao Lin inspired: white paper background, #333 body text, low-saturation academic blue links/headings. */
+      --bg: #ffffff;
       --surface: #ffffff;
-      --border: #e5e7eb;
-      --text: #2d3436;
-      --muted: #636e72;
-      --white: #1a1a1b;
-      --accent: #2563EB;
-      --accent-dim: rgba(37, 99, 235, 0.08);
-      --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --border: #e5e5e5;
+      --text: #333333;
+      --muted: #777777;
+      --white: #1f5f8b;
+      --accent: #1f5f8b;
+      --accent-dim: rgba(31, 95, 139, 0.09);
+      --font: "Libre Baskerville", "Book Antiqua", Palatino, serif;
     }
 
     html { scroll-behavior: smooth; }
-    
     body {
-      font-family: var(--font);
       background: var(--bg);
       color: var(--text);
-      font-size: 15px;
-      line-height: 1.65;
-      letter-spacing: -0.1px;
+      font: 16px/1.6 var(--font);
+      font-variant-numeric: oldstyle-nums;
+      text-rendering: optimizeLegibility;
+      letter-spacing: 0;
     }
 
     a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
@@ -74,9 +73,9 @@
       box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     }
     .about-top h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 32px;
-      font-weight: 400;
+      font-family: var(--font);
+      font-size: 1.6em;
+      font-weight: normal;
       color: var(--white);
       letter-spacing: 0;
       margin-bottom: 8px;
@@ -340,6 +339,101 @@
       letter-spacing: 0.8px;
       margin: 4px 0 10px;
     }
+
+
+    /* ---- Tao Lin style overrides ---- */
+    body {
+      background: #ffffff;
+      color: #333333;
+      font: 16px/1.6 "Libre Baskerville", "Book Antiqua", Palatino, serif;
+      font-variant-numeric: oldstyle-nums;
+      text-rendering: optimizeLegibility;
+      letter-spacing: 0;
+    }
+    a,
+    .pub-links a,
+    .talk-venue,
+    .talk-venue a,
+    .edu-school.accent {
+      color: #1f5f8b;
+    }
+    a:hover,
+    .talk-title a:hover,
+    .social-links a:hover,
+    .tag:hover {
+      color: #1f5f8b;
+    }
+    .section-head .label,
+    .about-top h1,
+    .about-top .tagline,
+    .about-top .email,
+    .about-top .email a,
+    .pub-title,
+    .talk-title,
+    .exp-place,
+    .edu-school,
+    .news-text.highlight,
+    .social-links a {
+      color: #1f5f8b;
+    }
+    .about-top h1 {
+      font-family: "Libre Baskerville", "Book Antiqua", Palatino, serif;
+      font-size: 1.6em;
+      font-weight: normal;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .section-head .label {
+      font-size: 1em;
+      font-weight: normal;
+      letter-spacing: 0.5px;
+    }
+    .about-text,
+    .about-top .tagline,
+    .about-top .email,
+    .pub-title,
+    .pub-authors,
+    .pub-venue,
+    .news-text,
+    .service-list,
+    .sub-head,
+    .album-desc,
+    .talk-title,
+    .talk-meta,
+    .exp-detail,
+    .edu-time,
+    .edu-role {
+      font-size: 1em;
+    }
+    .news-date,
+    .pub-links,
+    .pub-category,
+    .album-figure figcaption,
+    .visitor-label {
+      font-size: 0.9em;
+    }
+    .page {
+      max-width: 46em;
+      padding: 2.5em 1em;
+    }
+    .avatar,
+    .pub-thumb,
+    .tag {
+      border-color: #e5e5e5;
+    }
+    .news-text.highlight {
+      background: rgba(31, 95, 139, 0.09);
+    }
+    pre {
+      background: #f8f8f8;
+      border: 1px solid #e5e5e5;
+    }
+    code,
+    pre,
+    kbd {
+      font-family: "Inconsolata", monospace;
+    }
+
     @media (max-width: 768px) {
       .page { flex-direction: column; gap: 32px; padding: 40px 20px; }
       .sidebar { position: static; flex-direction: row; flex-wrap: wrap; gap: 12px; min-width: auto; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
