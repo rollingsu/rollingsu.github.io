@@ -10,13 +10,12 @@
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     :root {
-      /* Tao Lin inspired: white paper background, #333 body text, low-saturation academic blue links/headings. */
       --bg: #ffffff;
       --surface: #ffffff;
       --border: #e5e5e5;
       --text: #333333;
       --muted: #777777;
-      --white: #1f5f8b;
+      --heading: #1f5f8b;
       --accent: #1f5f8b;
       --accent-dim: rgba(31, 95, 139, 0.09);
       --font: "Libre Baskerville", "Book Antiqua", Palatino, serif;
@@ -61,7 +60,7 @@
       border-bottom: 1px solid var(--border);
     }
     .section-head .label {
-      font-size: 16px; font-weight: 700; color: var(--white);
+      font-size: 16px; font-weight: 700; color: var(--heading);
       letter-spacing: 1px; text-transform: uppercase;
     }
 
@@ -76,31 +75,34 @@
       font-family: var(--font);
       font-size: 1.6em;
       font-weight: normal;
-      color: var(--white);
+      color: var(--heading);
       letter-spacing: 0;
       margin-bottom: 8px;
       line-height: 1.1;
     }
     .about-top .tagline {
       font-size: 17px;
-      color: var(--white);
+      color: var(--text);
       font-weight: 400;
       letter-spacing: 0.3px;
       margin-top: 4px;
     }
+    .about-top .tagline .cornell {
+      color: var(--accent);
+    }
     .about-top .email {
       font-size: 16px;
-      color: var(--white);
+      color: var(--text);
       margin-top: 4px;
       font-weight: 400;
       letter-spacing: 0.2px;
     }
     .about-top .email a {
-      color: var(--white);
+      color: var(--text);
       text-decoration: none;
     }
     .about-top .email a:hover {
-      color: var(--white);
+      color: var(--text);
       text-decoration: underline;
     }
     .social-links {
@@ -115,11 +117,11 @@
       justify-content: center;
       width: 22px;
       height: 22px;
-      color: var(--white);
+      color: var(--text);
       transition: color 0.2s;
     }
     .social-links a:hover {
-      color: var(--accent);
+      color: var(--text);
       text-decoration: none;
     }
     .social-links svg {
@@ -161,7 +163,7 @@
       display: block;
     }
     .pub-body { flex: 1; min-width: 0; }
-    .pub-title { font-size: 16px; font-weight: 400; color: var(--white); line-height: 1.4; margin-bottom: 6px; }
+    .pub-title { font-size: 16px; font-weight: 400; color: var(--heading); line-height: 1.4; margin-bottom: 6px; }
     .pub-authors { font-size: 15px; color: var(--muted); margin-bottom: 4px; }
     .pub-authors .first-author { color: var(--text); font-weight: 400; text-decoration: underline; text-decoration-color: var(--accent); }
     .pub-venue { font-size: 14px; color: var(--accent); font-weight: 400; margin-bottom: 6px; }
@@ -173,7 +175,7 @@
     .news-item:last-child { border-bottom: none; }
     .news-date { font-size: 14px; color: var(--muted); min-width: 65px; font-weight: 400; }
     .news-text { font-size: 14px; color: var(--text); line-height: 1.4; }
-    .news-text.highlight { color: var(--white); font-weight: 400; background: linear-gradient(120deg, var(--accent-dim) 0%, var(--accent-dim) 100%); }
+    .news-text.highlight { color: var(--heading); font-weight: 400; background: linear-gradient(120deg, var(--accent-dim) 0%, var(--accent-dim) 100%); }
 
     /* ---- EXPERIENCE ---- */
     .exp-item {
@@ -181,7 +183,7 @@
       border-bottom: 1px solid var(--border);
     }
     .exp-item:last-of-type { border-bottom: none; }
-    .exp-place { font-size: 18px; font-weight: 700; color: var(--white); }
+    .exp-place { font-size: 18px; font-weight: 700; color: var(--heading); }
     .exp-detail { font-size: 15px; color: var(--muted); margin-top: 4px; }
 
     /* ---- EDUCATION: two items side by side ---- */
@@ -203,7 +205,7 @@
       align-items: flex-start; 
       gap: 4px; 
     }
-    .edu-school { font-size: 17px; font-weight: 700; color: var(--white); }
+    .edu-school { font-size: 17px; font-weight: 700; color: var(--heading); }
     .edu-school.accent { color: var(--accent); }
     .edu-role { font-size: 14px; color: var(--muted); }
     .edu-logo { height: 36px; filter: none; opacity: 1; object-fit: contain; }
@@ -234,10 +236,10 @@
     .talk-title {
       font-size: 16px;
       font-weight: 700;
-      color: var(--white);
+      color: var(--heading);
       margin-bottom: 4px;
     }
-    .talk-title a { color: var(--white); }
+    .talk-title a { color: var(--heading); }
     .talk-title a:hover { color: var(--accent); }
     .talk-meta { font-size: 14px; color: var(--muted); }
     .talk-venue { color: var(--accent); font-weight: 400; }
@@ -340,105 +342,20 @@
       margin: 4px 0 10px;
     }
 
-
-    /* ---- Tao Lin style overrides ---- */
-    body {
-      background: #ffffff;
-      color: #333333;
-      font: 16px/1.6 "Libre Baskerville", "Book Antiqua", Palatino, serif;
-      font-variant-numeric: oldstyle-nums;
-      text-rendering: optimizeLegibility;
-      letter-spacing: 0;
-    }
-    a,
-    .pub-links a,
-    .talk-venue,
-    .talk-venue a,
-    .edu-school.accent {
-      color: #1f5f8b;
-    }
-    a:hover,
-    .talk-title a:hover,
-    .social-links a:hover,
-    .tag:hover {
-      color: #1f5f8b;
-    }
-    .section-head .label,
-    .about-top h1,
-    .about-top .tagline,
-    .about-top .email,
-    .about-top .email a,
-    .pub-title,
-    .talk-title,
-    .exp-place,
-    .edu-school,
-    .news-text.highlight,
-    .social-links a {
-      color: #1f5f8b;
-    }
-    .about-top h1 {
-      font-family: "Libre Baskerville", "Book Antiqua", Palatino, serif;
-      font-size: 1.6em;
-      font-weight: normal;
-      line-height: 1.2;
-      letter-spacing: 0;
-    }
-    .section-head .label {
-      font-size: 1em;
-      font-weight: normal;
-      letter-spacing: 0.5px;
-    }
-    .about-text,
-    .about-top .tagline,
-    .about-top .email,
-    .pub-title,
-    .pub-authors,
-    .pub-venue,
-    .news-text,
-    .service-list,
-    .sub-head,
-    .album-desc,
-    .talk-title,
-    .talk-meta,
-    .exp-detail,
-    .edu-time,
-    .edu-role {
-      font-size: 1em;
-    }
-    .news-date,
-    .pub-links,
-    .pub-category,
-    .album-figure figcaption,
-    .visitor-label {
-      font-size: 0.9em;
-    }
-    .page {
-      max-width: 46em;
-      padding: 2.5em 1em;
-    }
-    .avatar,
-    .pub-thumb,
-    .tag {
-      border-color: #e5e5e5;
-    }
-    .news-text.highlight {
-      background: rgba(31, 95, 139, 0.09);
-    }
-    pre {
-      background: #f8f8f8;
-      border: 1px solid #e5e5e5;
-    }
     code,
     pre,
     kbd {
       font-family: "Inconsolata", monospace;
+    }
+    pre {
+      background: #f8f8f8;
+      border: 1px solid #e5e5e5;
     }
 
     @media (max-width: 768px) {
       .page { flex-direction: column; gap: 32px; padding: 40px 20px; }
       .sidebar { position: static; flex-direction: row; flex-wrap: wrap; gap: 12px; min-width: auto; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
       .sidebar a.active { border-left: none; border-bottom: 2px solid var(--accent); padding-left: 0; padding-bottom: 4px; }
-      .-top { flex-direction: column; text-align: center; gap: 20px;}
       .edu-container { flex-direction: column; gap: 20px; }
       .edu-item { flex-direction: column; align-items: flex-start; gap: 6px;}
       .pub-item { flex-direction: column; }
@@ -450,25 +367,15 @@
 <body>
 
 <div class="page">
-  <!-- <nav class="sidebar" id="sidebar">
-    <a href="#about" class="active" data-target="about">About</a>
-    <a href="#publications" data-target="publications">Publications</a>
-    <a href="#news" data-target="news">News</a>
-    <!-- <a href="#experience" data-target="experience">Experience</a> -->
-    <!-- <a href="#education" data-target="education">Education</a> -->
-    <!-- <a href="#services" data-target="services">Services</a>
-    <a href="#album" data-target="album">Album</a>
-  </nav> --> 
-
   <main class="main">
     <section id="about" class="section">
       <div class="about-top">
         <img class="avatar" src="images/mybighead.jpg" alt="Zhaolong Su" onerror="this.style.display='none'" />
         <div>
           <h1>Zhaolong Su 苏兆龙</h1>
-          <p style="font-family: 'Zhi Mang Xing', cursive; font-size: 22px; color: var(--white); margin: 4px 0 2px; letter-spacing: 6px;">学无止境</p>
-          <p class="tagline">Ph.D. Student in Systems Engineering, Cornell University</p>
-          <p class="email">Email: <a href="mailto:your-email@cornell.edu">zs494@cornell.edu</a></p>
+          <p style="font-family: 'Zhi Mang Xing', cursive; font-size: 22px; color: #333333; margin: 4px 0 2px; letter-spacing: 6px;">学无止境</p>
+          <p class="tagline">Ph.D. Student in Systems Engineering, <span class="cornell">Cornell University</span></p>
+          <p class="email">Email: <a href="mailto:zs494@cornell.edu">zs494@cornell.edu</a></p>
           <div class="social-links">
             <a href="https://github.com/rollingsu" target="_blank" aria-label="GitHub">
               <svg viewBox="0 0 24 24" fill="currentColor">
@@ -623,52 +530,6 @@
       </div>
       
     </section>
-    
-    <!-- <section id="education" class="section">
-      <div class="section-head">
-        <span class="label">Education</span>
-      </div>
-      <div class="edu-container">
-        <div class="edu-item">
-          <span class="edu-time">Fall 2026</span>
-          <div class="edu-content">
-            <img class="edu-logo" src="images/cornell.png" alt="Cornell" />
-            <span class="edu-school">Cornell University</span>
-            <span class="edu-role">PhD in System Engineering</span>
-          </div>
-        </div>
-    
-        <div class="edu-item">
-          <span class="edu-time">2021 – 2025</span>
-          <div class="edu-content">
-            <img class="edu-logo" src="images/image.png" alt="BJUT" />
-            <span class="edu-school">Beijing University of Technology</span>
-            <span class="edu-role">B.Eng in Artificial Intelligence</span>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <section id="experience" class="section">
-      <div class="section-head">
-        <span class="label">Research Experience</span>
-      </div>
-      <div class="exp-item">
-        <div class="exp-place">Johns Hopkins University</div>
-        <div class="exp-detail">Summer Researcher · advised by Alan Yuille · Computer Vision and Generative Models</div>
-        <div class="exp-detail">Mar 2024 – Present</div>
-      </div>
-      <div class="exp-item">
-        <div class="exp-place">DCML Group, Peking University</div>
-        <div class="exp-detail">Intern · advised by Wentao Zhang · GNN / LLMs</div>
-        <div class="exp-detail">Jan 2024 – May 2024</div>
-      </div>
-      <div class="exp-item">
-        <div class="exp-place">LKS Faculty of Medicine, The University of Hong Kong</div>
-        <div class="exp-detail">RA · Medical Imaging</div>
-        <div class="exp-detail">Apr 2023 – Apr 2024</div>
-      </div>
-    </section> -->
 
     <section id="services" class="section">
       <div class="section-head">
@@ -677,7 +538,7 @@
 
       <div class="sub-group">
         <p class="sub-head">Teaching</p>
-        <p style="font-size:15px; color:var(--white); font-style:italic;">Coming soon.</p>
+        <p style="font-size:15px; color:var(--text); font-style:italic;">Coming soon.</p>
       </div>
 
       <div class="sub-group">
